@@ -1,15 +1,19 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
-import { FullSlug, resolveRelative } from "../../util/path"
+import { FullSlug, joinSegments, resolveRelative } from "../../util/path"
 import { siteInfo } from "./siteInfo"
 
 /** Subsol: susținere, drepturi de autor, licență, sursa principală, credite tehnice. */
-const SiteFooter: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
+const SiteFooter: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzComponentProps) => {
   const despre = allFiles.find((f) =>
     (f.filePath ?? "").replace(/\\/g, "/").endsWith(`/${siteInfo.paginaDespre}.md`),
   )
-  const despreHref = despre?.slug
-    ? resolveRelative(fileData.slug as FullSlug, despre.slug as FullSlug)
-    : undefined
+  // Pagina 404 poate fi servită la orice adresă, deci are nevoie de o cale absolută.
+  const basePath = "/" + (cfg.baseUrl ?? "").split("/").slice(1).join("/")
+  const despreHref = !despre?.slug
+    ? undefined
+    : fileData.slug === "404"
+      ? joinSegments(basePath, encodeURI(despre.slug))
+      : resolveRelative(fileData.slug as FullSlug, despre.slug as FullSlug)
 
   return (
     <footer class="site-subsol">

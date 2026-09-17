@@ -14,8 +14,13 @@ import { siteInfo } from "./siteInfo"
  *
  * Se închide: ✕, „Nu acum", tasta Esc, clic în afara ferestrei.
  */
-const SustinePopup: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  const qrSrc = joinSegments(pathToRoot(fileData.slug as FullSlug), siteInfo.plataQr)
+const SustinePopup: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
+  // Pagina 404 poate fi servită la orice adresă, deci are nevoie de o cale absolută.
+  const root =
+    fileData.slug === "404"
+      ? "/" + (cfg.baseUrl ?? "").split("/").slice(1).join("/")
+      : pathToRoot(fileData.slug as FullSlug)
+  const qrSrc = joinSegments(root, siteInfo.plataQr)
   return (
     <dialog
       class="sustine-dialog"
