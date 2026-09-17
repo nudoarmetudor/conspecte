@@ -37,7 +37,7 @@ jobs:
       - name: Verificări înainte de publicare
         run: node scripts/verifica-publicare.mjs
       - name: Construire site
-        run: npx quartz build
+        run: node quartz/bootstrap-cli.mjs build
       - name: Încărcare artefact
         uses: actions/upload-pages-artifact@v3
         with:
