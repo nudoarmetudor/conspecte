@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 290" width="470" height="290" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+  </defs>
+  <polygon points="70,245 185,105 410,105 295,245" fill="none" stroke="#909090" stroke-width="1.6"/>
+  <text x="318" y="90" font-size="14" fill="#4CA88A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">V₂ — vectorii unui plan</text>
+  <line x1="115" y1="200" x2="375" y2="200" stroke="#4CA88A" stroke-width="2.2"/>
+  <text x="385" y="205" font-size="15" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">V₁</text>
+  <text x="60" y="275" font-size="14" fill="#E08A3C" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">W = {0}</text>
+  <circle cx="240" cy="190" r="6" fill="#E08A3C"/>
+  <line x1="100" y1="268" x2="228" y2="196" stroke="#E08A3C" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="35" y="35" font-size="15" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">V — toți vectorii spațiului</text>
+  <text x="35" y="58" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">{0} ⊂ V₁ ⊂ V₂ ⊂ V  — lanț de subspații</text>
+  <line x1="240" y1="190" x2="350" y2="172" stroke="#4C86D6" stroke-width="2.4" marker-end="url(#ab)"/>
+  <line x1="240" y1="190" x2="300" y2="130" stroke="#4CA88A" stroke-width="2.4" marker-end="url(#at)"/>
+  <text x="150" y="175" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">V₁ — vectorii</text>
+  <text x="150" y="190" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">unei drepte</text>
+</svg>

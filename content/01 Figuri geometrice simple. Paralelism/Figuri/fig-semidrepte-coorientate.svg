@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 545 230" width="545" height="230" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="180" x2="440" y2="180" stroke="#909090" stroke-width="1.6" stroke-dasharray="7 5"/>
+  <text x="446" y="184" font-size="15" font-style="italic" fill="#909090">(O₁O₂)</text>
+  <line x1="140" y1="180" x2="235" y2="55" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ar)"/>
+  <line x1="300" y1="180" x2="395" y2="55" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ar)"/>
+  <circle cx="140" cy="180" r="4.5" fill="#4C86D6"/>
+  <circle cx="300" cy="180" r="4.5" fill="#4C86D6"/>
+  <text x="126" y="203" font-size="16" font-style="italic" fill="#4C86D6">O₁</text>
+  <text x="286" y="203" font-size="16" font-style="italic" fill="#4C86D6">O₂</text>
+  <text x="240" y="46" font-size="16" font-style="italic" fill="#4C86D6">A₁</text>
+  <text x="400" y="46" font-size="16" font-style="italic" fill="#4C86D6">A₂</text>
+  <text x="30" y="30" font-size="14" fill="#909090">acelaşi semiplan → coorientate</text>
+</svg>

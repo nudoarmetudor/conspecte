@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 250" width="470" height="250" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+  </defs>
+  <path d="M 40 60 C 160 40, 300 70, 430 50 L 430 190 C 300 210, 160 170, 40 190 Z" fill="none" stroke="#909090" stroke-width="1.8"/>
+  <line x1="80" y1="122" x2="128" y2="116" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <circle cx="80" cy="122" r="3.5" fill="#4C86D6"/>
+  <line x1="165" y1="118" x2="237" y2="112" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <circle cx="165" cy="118" r="3.5" fill="#4C86D6"/>
+  <line x1="265" y1="126" x2="317" y2="120" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <circle cx="265" cy="126" r="3.5" fill="#4C86D6"/>
+  <line x1="345" y1="116" x2="377" y2="110" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <circle cx="345" cy="116" r="3.5" fill="#4C86D6"/>
+  <text x="40" y="232" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">viteza în fiecare punct al tubului — vector aplicat</text>
+</svg>

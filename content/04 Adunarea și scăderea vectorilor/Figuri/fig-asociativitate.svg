@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 275" width="480" height="275" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <line x1="50" y1="220" x2="285" y2="72" stroke="#909090" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <line x1="150" y1="100" x2="420" y2="165" stroke="#909090" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <line x1="50" y1="220" x2="150" y2="100" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="150" y1="100" x2="285" y2="72" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <line x1="285" y1="72" x2="420" y2="165" stroke="#4CA88A" stroke-width="2.6" marker-end="url(#at)"/>
+  <line x1="50" y1="220" x2="420" y2="165" stroke="#8B7BD8" stroke-width="3.2" marker-end="url(#av)"/>
+  <circle cx="50" cy="220" r="4.5" fill="#909090"/>
+  <circle cx="150" cy="100" r="4.5" fill="#909090"/>
+  <circle cx="285" cy="72" r="4.5" fill="#909090"/>
+  <circle cx="420" cy="165" r="4.5" fill="#909090"/>
+  <text x="84" y="158" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="79.5" y1="139" x2="88.5" y2="139" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <text x="217.5" y="72" font-size="17" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">b</text>
+  <line x1="213" y1="53" x2="222" y2="53" stroke="#E08A3C" stroke-width="1.3" marker-end="url(#ao)"/>
+  <text x="374.5" y="112.5" font-size="17" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-style="italic">c</text>
+  <line x1="370" y1="93.5" x2="379" y2="93.5" stroke="#4CA88A" stroke-width="1.3" marker-end="url(#at)"/>
+  <text x="128" y="168" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a+b</text>
+  <text x="300" y="122" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">b+c</text>
+  <text x="235" y="232.5" font-size="17" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">a+b+c</text>
+  <line x1="216.5" y1="213.5" x2="253.5" y2="213.5" stroke="#8B7BD8" stroke-width="1.3" marker-end="url(#av)"/>
+  <text x="35" y="262" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">(a + b) + c = a + (b + c) — ambele închid aceeași linie frântă</text>
+</svg>

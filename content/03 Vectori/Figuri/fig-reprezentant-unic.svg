@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 270" width="340" height="270" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ar5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/>
+    </marker>
+  </defs>
+  <line x1="120" y1="220" x2="200" y2="40" stroke="#909090" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <line x1="60" y1="60" x2="260" y2="200" stroke="#909090" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <line x1="60" y1="60" x2="200" y2="40" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ar5)"/>
+  <line x1="120" y1="220" x2="260" y2="200" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ar5)"/>
+  <circle cx="60" cy="60" r="4.5" fill="#4C86D6"/>
+  <circle cx="200" cy="40" r="4.5" fill="#4C86D6"/>
+  <circle cx="120" cy="220" r="4.5" fill="#4C86D6"/>
+  <circle cx="260" cy="200" r="4.5" fill="#4C86D6"/>
+  <circle cx="160" cy="130" r="5" fill="#E08A3C"/>
+  <text x="44" y="52" font-size="16" font-style="italic" fill="#4C86D6">A</text>
+  <text x="206" y="34" font-size="16" font-style="italic" fill="#4C86D6">B</text>
+  <text x="104" y="240" font-size="16" font-style="italic" fill="#4C86D6">O</text>
+  <text x="266" y="216" font-size="16" font-style="italic" fill="#4C86D6">M</text>
+  <text x="168" y="128" font-size="16" font-style="italic" fill="#E08A3C">C</text>
+</svg>

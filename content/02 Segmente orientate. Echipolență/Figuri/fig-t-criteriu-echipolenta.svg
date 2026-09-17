@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 362" width="480" height="362" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+  </defs>
+  <text x="20" y="24" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">A, B, C, D necoliniare: ABDC este paralelogram</text>
+  <line x1="60" y1="160" x2="210" y2="200" stroke="#909090" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <line x1="200" y1="90" x2="350" y2="130" stroke="#909090" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <line x1="60" y1="160" x2="350" y2="130" stroke="#8B7BD8" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <line x1="200" y1="90" x2="210" y2="200" stroke="#8B7BD8" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <line x1="131.883" y1="146.532" x2="133.117" y2="158.468" stroke="#8B7BD8" stroke-width="1.6"/>
+  <line x1="276.883" y1="131.532" x2="278.117" y2="143.468" stroke="#8B7BD8" stroke-width="1.6"/>
+  <line x1="208.294" y1="114.965" x2="196.344" y2="116.051" stroke="#8B7BD8" stroke-width="1.6"/>
+  <line x1="208.656" y1="118.949" x2="196.706" y2="120.035" stroke="#8B7BD8" stroke-width="1.6"/>
+  <line x1="213.294" y1="169.965" x2="201.344" y2="171.051" stroke="#8B7BD8" stroke-width="1.6"/>
+  <line x1="213.656" y1="173.949" x2="201.706" y2="175.035" stroke="#8B7BD8" stroke-width="1.6"/>
+  <line x1="60" y1="160" x2="200" y2="90" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="210" y1="200" x2="350" y2="130" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="60" cy="160" r="4.5" fill="#4C86D6"/>
+  <circle cx="210" cy="200" r="4.5" fill="#E08A3C"/>
+  <circle cx="205" cy="145" r="6" fill="#8B7BD8"/>
+  <text x="46" y="166" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="200" y="79" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="214" y="222" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">C</text>
+  <text x="365" y="134" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">D</text>
+  <text x="223" y="139" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">M</text>
+  <text x="20" y="244" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">M = mijlocul lui [AD] = mijlocul lui [BC]</text>
+  <line x1="15" y1="256" x2="465" y2="256" stroke="#909090" stroke-width="0.8"/>
+  <text x="20" y="276" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">A, B, C, D pe aceeași dreaptă: aceeași regulă</text>
+  <line x1="30" y1="314" x2="450" y2="314" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="60" y1="314" x2="180" y2="314" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="260" y1="314" x2="380" y2="314" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="60" cy="314" r="4.5" fill="#4C86D6"/>
+  <circle cx="260" cy="314" r="4.5" fill="#E08A3C"/>
+  <circle cx="220" cy="314" r="6" fill="#8B7BD8"/>
+  <text x="60" y="303" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="180" y="303" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="260" y="303" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">C</text>
+  <text x="380" y="303" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">D</text>
+  <text x="220" y="303" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">M</text>
+  <line x1="60" y1="332" x2="380" y2="332" stroke="#8B7BD8" stroke-width="1.3"/>
+  <line x1="60" y1="327" x2="60" y2="337" stroke="#8B7BD8" stroke-width="1.3"/>
+  <line x1="380" y1="327" x2="380" y2="337" stroke="#8B7BD8" stroke-width="1.3"/>
+  <line x1="180" y1="346" x2="260" y2="346" stroke="#8B7BD8" stroke-width="1.3"/>
+  <line x1="180" y1="341" x2="180" y2="351" stroke="#8B7BD8" stroke-width="1.3"/>
+  <line x1="260" y1="341" x2="260" y2="351" stroke="#8B7BD8" stroke-width="1.3"/>
+  <line x1="220" y1="314" x2="220" y2="354" stroke="#8B7BD8" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="390" y="336" font-size="12" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">[AD]</text>
+  <text x="270" y="350" font-size="12" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">[BC]</text>
+</svg>

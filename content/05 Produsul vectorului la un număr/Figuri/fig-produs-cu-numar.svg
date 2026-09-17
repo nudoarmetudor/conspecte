@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 275" width="470" height="275" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <line x1="200" y1="28" x2="200" y2="225" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="80" y1="45" x2="445" y2="45" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="200" y1="45" x2="310" y2="45" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <circle cx="200" cy="45" r="3.5" fill="#4C86D6"/>
+  <text x="36" y="50" font-size="16" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">a</text>
+  <line x1="80" y1="97" x2="445" y2="97" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="200" y1="97" x2="420" y2="97" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="200" cy="97" r="3.5" fill="#E08A3C"/>
+  <text x="36" y="102" font-size="16" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">2a</text>
+  <line x1="80" y1="149" x2="445" y2="149" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="200" y1="149" x2="255" y2="149" stroke="#4CA88A" stroke-width="2.8" marker-end="url(#at)"/>
+  <circle cx="200" cy="149" r="3.5" fill="#4CA88A"/>
+  <text x="36" y="154" font-size="16" fill="#4CA88A" text-anchor="start" font-weight="normal" font-style="italic">½a</text>
+  <line x1="80" y1="201" x2="445" y2="201" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="200" y1="201" x2="90" y2="201" stroke="#8B7BD8" stroke-width="2.8" marker-end="url(#av)"/>
+  <circle cx="200" cy="201" r="3.5" fill="#8B7BD8"/>
+  <text x="36" y="206" font-size="16" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-style="italic">−a</text>
+  <text x="36" y="262" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">α &gt; 0 → același sens;  α &lt; 0 → sens opus;  |αa| = |α|·|a|</text>
+</svg>

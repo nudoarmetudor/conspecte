@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 250" width="440" height="250" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+  </defs>
+  <path d="M 60 215 L 165 95 L 400 95 L 295 215 Z" fill="none" stroke="#909090" stroke-width="1.6"/>
+  <line x1="140" y1="165" x2="300" y2="115" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="140" y1="165" x2="320" y2="165" stroke="#4CA88A" stroke-width="2.6" marker-end="url(#at)"/>
+  <line x1="140" y1="165" x2="270" y2="200" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <circle cx="140" cy="165" r="5" fill="#909090"/>
+  <text x="126" y="170" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="300" y="105" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="334" y="169" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">C</text>
+  <text x="280" y="216" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="60" y="240" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">trei vectori coplanari, depuși din același punct O</text>
+</svg>

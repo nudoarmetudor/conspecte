@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 228" width="480" height="228" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+  </defs>
+  <text x="30" y="28" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">unde se află M₀ pentru diferite valori ale lui λ</text>
+  <line x1="15" y1="110" x2="465" y2="110" stroke="#909090" stroke-width="1.3"/>
+  <line x1="40" y1="102" x2="40" y2="118" stroke="#8B7BD8" stroke-width="1.6"/>
+  <text x="40" y="90" font-size="15" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">−⅓</text>
+  <line x1="140" y1="102" x2="140" y2="118" stroke="#909090" stroke-width="1.6"/>
+  <text x="140" y="90" font-size="15" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">0</text>
+  <line x1="190" y1="102" x2="190" y2="118" stroke="#4CA88A" stroke-width="1.6"/>
+  <text x="190" y="90" font-size="15" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">⅓</text>
+  <line x1="240" y1="102" x2="240" y2="118" stroke="#4CA88A" stroke-width="1.6"/>
+  <text x="240" y="90" font-size="15" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">1</text>
+  <line x1="290" y1="102" x2="290" y2="118" stroke="#4CA88A" stroke-width="1.6"/>
+  <text x="290" y="90" font-size="15" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">3</text>
+  <line x1="340" y1="102" x2="340" y2="118" stroke="#909090" stroke-width="1.6"/>
+  <text x="340" y="90" font-size="15" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">∞</text>
+  <line x1="440" y1="102" x2="440" y2="118" stroke="#E08A3C" stroke-width="1.6"/>
+  <text x="440" y="90" font-size="15" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">−3</text>
+  <circle cx="140" cy="110" r="6" fill="#4C86D6"/>
+  <circle cx="340" cy="110" r="6" fill="#E08A3C"/>
+  <text x="140" y="62" font-size="15" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">M₁</text>
+  <text x="340" y="62" font-size="15" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">M₂</text>
+  <text x="240" y="62" font-size="13" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">mijloc</text>
+  <rect x="18" y="130" width="116" height="8" rx="3" fill="#8B7BD8" fill-opacity="0.6"/>
+  <rect x="146" y="130" width="188" height="8" rx="3" fill="#4CA88A" fill-opacity="0.6"/>
+  <rect x="346" y="130" width="116" height="8" rx="3" fill="#E08A3C" fill-opacity="0.6"/>
+  <text x="76" y="158" font-size="14" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">−1 &lt; λ &lt; 0</text>
+  <text x="240" y="158" font-size="14" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">λ &gt; 0  (între M₁ și M₂)</text>
+  <text x="404" y="158" font-size="14" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">λ &lt; −1</text>
+  <text x="30" y="196" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">λ = −1 nu corespunde niciunui punct;</text>
+  <text x="30" y="214" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">M₀ = M₂ nu are raport (λ → ∞).</text>
+</svg>

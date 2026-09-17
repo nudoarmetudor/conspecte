@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 210" width="500" height="210" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <text x="20" y="24" font-size="14" fill="#E08A3C" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">a = 0</text>
+  <circle cx="110" cy="100" r="8" fill="none" stroke="#E08A3C" stroke-width="2"/>
+  <text x="110" y="130" font-size="13" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a = 0</text>
+  <text x="20" y="170" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">1 · 0 = 0, iar coeficientul 1 ≠ 0</text>
+  <text x="20" y="190" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">⇒ {0} liniar dependent</text>
+  <line x1="235" y1="15" x2="235" y2="205" stroke="#909090" stroke-width="0.8"/>
+  <text x="250" y="24" font-size="14" fill="#4C86D6" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">a ≠ 0</text>
+  <line x1="340" y1="40" x2="340" y2="150" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="340" y1="52" x2="400" y2="52" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <text x="465" y="57" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a</text>
+  <line x1="340" y1="76" x2="460" y2="76" stroke="#8B7BD8" stroke-width="2.6" marker-end="url(#av)"/>
+  <text x="465" y="81" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">2a</text>
+  <line x1="340" y1="100" x2="370" y2="100" stroke="#8B7BD8" stroke-width="2.6" marker-end="url(#av)"/>
+  <text x="465" y="105" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">0,5a</text>
+  <line x1="340" y1="124" x2="280" y2="124" stroke="#8B7BD8" stroke-width="2.6" marker-end="url(#av)"/>
+  <text x="465" y="129" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">−a</text>
+  <circle cx="340" cy="146" r="3.5" fill="#909090"/>
+  <text x="465" y="151" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">0·a</text>
+  <text x="250" y="170" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">|αa| = |α|·|a| &gt; 0 pentru orice α ≠ 0</text>
+  <text x="250" y="190" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">⇒ {a} liniar independent</text>
+</svg>

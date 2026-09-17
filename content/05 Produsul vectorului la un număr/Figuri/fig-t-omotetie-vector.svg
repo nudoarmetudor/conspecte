@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 305" width="480" height="305" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <text x="20" y="24" font-size="14" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">k = 2</text>
+  <line x1="30" y1="230" x2="130" y2="110" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="30" y1="230" x2="210" y2="200" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="80" y1="170" x2="120" y2="215" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="130" y1="110" x2="210" y2="200" stroke="#8B7BD8" stroke-width="2.8" marker-end="url(#av)"/>
+  <circle cx="30" cy="230" r="4.5" fill="#909090"/>
+  <circle cx="80" cy="170" r="3.5" fill="#4C86D6"/>
+  <circle cx="120" cy="215" r="3.5" fill="#4C86D6"/>
+  <circle cx="130" cy="110" r="3.5" fill="#8B7BD8"/>
+  <circle cx="210" cy="200" r="3.5" fill="#8B7BD8"/>
+  <text x="22" y="250" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="67" y="170" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="124" y="235" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="116" y="106" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">A′</text>
+  <text x="226" y="206" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">B′</text>
+  <text x="20" y="268" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">OA′ = 2·OA,  OB′ = 2·OB</text>
+  <text x="20" y="288" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">⇒  A′B′ = 2·AB</text>
+  <line x1="245" y1="15" x2="245" y2="295" stroke="#909090" stroke-width="0.8"/>
+  <text x="260" y="24" font-size="14" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">k = −1,5</text>
+  <line x1="305" y1="210" x2="405" y2="110" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="260" y1="165" x2="435" y2="140" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="405" y1="110" x2="435" y2="140" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="305" y1="210" x2="260" y2="165" stroke="#8B7BD8" stroke-width="2.8" marker-end="url(#av)"/>
+  <circle cx="365" cy="150" r="4.5" fill="#909090"/>
+  <circle cx="405" cy="110" r="3.5" fill="#4C86D6"/>
+  <circle cx="435" cy="140" r="3.5" fill="#4C86D6"/>
+  <circle cx="305" cy="210" r="3.5" fill="#8B7BD8"/>
+  <circle cx="260" cy="165" r="3.5" fill="#8B7BD8"/>
+  <text x="367" y="172" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="401" y="100" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="449" y="144" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="311" y="232" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">A′</text>
+  <text x="258" y="154" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">B′</text>
+  <text x="260" y="268" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">OA′ = −1,5·OA,  OB′ = −1,5·OB</text>
+  <text x="260" y="288" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">⇒  A′B′ = −1,5·AB (sens inversat)</text>
+</svg>

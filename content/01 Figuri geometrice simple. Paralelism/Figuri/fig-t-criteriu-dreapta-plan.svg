@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 305" width="480" height="305" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+  </defs>
+  <polygon points="40,250 140,170 450,170 350,250" fill="#909090" fill-opacity="0.1" stroke="#909090" stroke-width="1.2" stroke-opacity="0.7"/>
+  <polygon points="110,90 440,90 400,215 80,215" fill="none" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="95" y1="215" x2="385" y2="215" stroke="#E08A3C" stroke-width="2.8"/>
+  <line x1="110" y1="90" x2="440" y2="90" stroke="#4C86D6" stroke-width="2.8"/>
+  <circle cx="200" cy="90" r="4.5" fill="#4C86D6"/>
+  <circle cx="330" cy="90" r="4.5" fill="#4C86D6"/>
+  <text x="200" y="78" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="330" y="78" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="393" y="221" font-size="17" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">d</text>
+  <text x="68" y="243" font-size="19" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">σ</text>
+  <text x="118" y="137" font-size="19" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">τ</text>
+  <circle cx="250" cy="215" r="6" fill="none" stroke="#D4696A" stroke-width="2"/>
+  <text x="250" y="238" font-size="15" fill="#D4696A" text-anchor="middle" font-weight="normal" font-style="italic">X ?</text>
+  <text x="20" y="24" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">ipoteze: (AB) ⊄ σ,  d ⊂ σ,  (AB) ∥ d</text>
+  <text x="20" y="44" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">construcție: planul τ determinat de (AB) și d</text>
+  <text x="20" y="276" font-size="13" fill="#D4696A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">dacă (AB) ar tăia σ în X, atunci X ∈ τ ∩ σ = d</text>
+  <text x="20" y="295" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">dar (AB) ∥ d nu are puncte comune cu d  ⇒  (AB) ∥ σ</text>
+</svg>

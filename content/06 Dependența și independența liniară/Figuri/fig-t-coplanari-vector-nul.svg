@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 262" width="500" height="262" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+  </defs>
+  <text x="20" y="22" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">O, A, B necoliniare</text>
+  <text x="20" y="40" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">un singur plan prin ele</text>
+  <polygon points="20,205 75,105 235,105 180,205" fill="#909090" fill-opacity="0.1" stroke="#909090" stroke-width="1.2" stroke-opacity="0.7"/>
+  <line x1="75" y1="180" x2="175" y2="165" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="75" y1="180" x2="130" y2="125" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="75" cy="180" r="8" fill="none" stroke="#8B7BD8" stroke-width="2"/>
+  <text x="61" y="196" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="185" y="183" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="130" y="114" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="20" y="232" font-size="12" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">c = OO = 0 (cercul violet)</text>
+  <text x="20" y="250" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">⇒ a, b, c ∥ acest plan</text>
+  <line x1="250" y1="15" x2="250" y2="255" stroke="#909090" stroke-width="0.8"/>
+  <text x="265" y="22" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">O, A, B coliniare</text>
+  <text x="265" y="40" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">o infinitate de plane — ajunge unul</text>
+  <polygon points="290,150 460,150 430,85 260,85" fill="#909090" fill-opacity="0.12" stroke="#909090" stroke-width="1.2" stroke-opacity="0.7"/>
+  <polygon points="290,150 460,150 490,200 320,200" fill="none" stroke="#909090" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="284" y="106" font-size="15" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">π₁</text>
+  <text x="462" y="194" font-size="15" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">π₂</text>
+  <line x1="270" y1="150" x2="480" y2="150" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="360" y1="150" x2="440" y2="150" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="360" y1="150" x2="295" y2="150" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="360" cy="150" r="8" fill="none" stroke="#8B7BD8" stroke-width="2"/>
+  <text x="360" y="136" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="446" y="140" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="291" y="140" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="265" y="232" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">definiția cere doar existența</text>
+  <text x="265" y="250" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">unui plan ⇒ tot coplanari</text>
+</svg>

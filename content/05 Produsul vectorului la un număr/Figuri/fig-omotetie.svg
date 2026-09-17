@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 290" width="420" height="290" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <line x1="50" y1="165" x2="230" y2="145" stroke="#909090" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <line x1="50" y1="165" x2="294" y2="35" stroke="#909090" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <line x1="50" y1="165" x2="350" y2="255" stroke="#909090" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <line x1="140" y1="155" x2="172" y2="100" stroke="#4C86D6" stroke-width="2.2" marker-end="url(#ab)"/>
+  <line x1="172" y1="100" x2="200" y2="210" stroke="#E08A3C" stroke-width="2.2" marker-end="url(#ao)"/>
+  <line x1="140" y1="155" x2="200" y2="210" stroke="#8B7BD8" stroke-width="2.2" marker-end="url(#av)"/>
+  <line x1="230" y1="145" x2="294" y2="35" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="294" y1="35" x2="350" y2="255" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <line x1="230" y1="145" x2="350" y2="255" stroke="#8B7BD8" stroke-width="2.8" marker-end="url(#av)"/>
+  <circle cx="50" cy="165" r="4" fill="#909090"/>
+  <text x="36" y="170" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="134" y="145" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="172" y="90" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="188" y="218" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">C</text>
+  <text x="240" y="157" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">A′</text>
+  <text x="294" y="25" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">B′</text>
+  <text x="364" y="261" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">C′</text>
+</svg>

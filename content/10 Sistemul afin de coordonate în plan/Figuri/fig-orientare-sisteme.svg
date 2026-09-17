@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 270" width="500" height="270" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#D4696A"/></marker>
+  </defs>
+  <line x1="245" y1="15" x2="245" y2="260" stroke="#909090" stroke-width="0.8"/>
+  <text x="25" y="30" font-size="15" fill="#4CA88A" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">orientare stângă</text>
+  <text x="25" y="49" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">pozitivă în acest curs (fig. 40)</text>
+  <line x1="40" y1="170" x2="225" y2="170" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="90" y1="219" x2="185" y2="64" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="120" y1="170" x2="205" y2="170" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="120" y1="170" x2="168" y2="92" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="120" cy="170" r="4" fill="#909090"/>
+  <text x="108" y="188" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="210" y="188" font-size="15" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+  <text x="174" y="88" font-size="15" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+  <path d="M 159.9 167.2 A 40 40 0 0 0 143.5 137.6" fill="none" stroke="#4CA88A" stroke-width="2.4" marker-end="url(#at)"/>
+  <text x="40" y="238" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">Ox se rotește spre Oy</text>
+  <text x="40" y="256" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">contrar acelor de ceasornic</text>
+  <text x="270" y="30" font-size="15" fill="#D4696A" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">orientare dreaptă</text>
+  <text x="270" y="49" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">(fig. 41)</text>
+  <line x1="265" y1="170" x2="480" y2="170" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="420" y1="243" x2="318" y2="76" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="375" y1="170" x2="460" y2="170" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <line x1="375" y1="170" x2="327" y2="92" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <circle cx="375" cy="170" r="4" fill="#909090"/>
+  <text x="389" y="188" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="312" y="92" font-size="15" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+  <text x="462" y="190" font-size="15" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+  <path d="M 357.5 134.0 A 40 40 0 0 1 414.8 165.8" fill="none" stroke="#D4696A" stroke-width="2.4" marker-end="url(#ar)"/>
+  <text x="290" y="238" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">Ox se rotește spre Oy</text>
+  <text x="290" y="256" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">în sensul acelor de ceasornic</text>
+</svg>

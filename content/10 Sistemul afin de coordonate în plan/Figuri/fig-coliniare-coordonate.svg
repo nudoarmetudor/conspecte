@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 272" width="480" height="272" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+  </defs>
+  <line x1="60" y1="60" x2="60" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="100" y1="60" x2="100" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="140" y1="60" x2="140" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="180" y1="60" x2="180" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="220" y1="60" x2="220" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="260" y1="60" x2="260" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="300" y1="60" x2="300" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="340" y1="60" x2="340" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="380" y1="60" x2="380" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="420" y1="60" x2="420" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="460" y1="60" x2="460" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="60" y1="220" x2="460" y2="220" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="60" y1="180" x2="460" y2="180" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="60" y1="140" x2="460" y2="140" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="60" y1="100" x2="460" y2="100" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="60" y1="60" x2="460" y2="60" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="60" y1="220" x2="140" y2="220" stroke="#4C86D6" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <line x1="140" y1="220" x2="140" y2="180" stroke="#4C86D6" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="92" y="238" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">2</text>
+  <text x="146" y="206" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">1</text>
+  <line x1="60" y1="220" x2="140" y2="180" stroke="#4C86D6" stroke-width="3" marker-end="url(#ab)"/>
+  <circle cx="60" cy="220" r="4" fill="#4C86D6"/>
+  <line x1="260" y1="220" x2="420" y2="220" stroke="#E08A3C" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <line x1="420" y1="220" x2="420" y2="140" stroke="#E08A3C" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="334" y="238" font-size="13" fill="#E08A3C" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">4</text>
+  <text x="426" y="186" font-size="13" fill="#E08A3C" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">2</text>
+  <line x1="260" y1="220" x2="420" y2="140" stroke="#E08A3C" stroke-width="3" marker-end="url(#ao)"/>
+  <circle cx="260" cy="220" r="4" fill="#E08A3C"/>
+  <text x="88" y="178" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="83.5" y1="159" x2="92.5" y2="159" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <text x="330" y="158" font-size="17" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">b</text>
+  <line x1="325.5" y1="139" x2="334.5" y2="139" stroke="#E08A3C" stroke-width="1.3" marker-end="url(#ao)"/>
+  <text x="30" y="26" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a = {2; 1},  b = {4; 2}:  2/4 = 1/2  ⇒  coordonate proporționale</text>
+  <text x="30" y="46" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">x₁y₂ − x₂y₁ = 2·2 − 4·1 = 0  ⇒  a ∥ b</text>
+  <text x="30" y="260" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">„trepte" asemenea: b = 2a</text>
+</svg>

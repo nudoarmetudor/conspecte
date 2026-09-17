@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+  </defs>
+  <text x="20" y="22" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">subsistemul σ′ = {a, b}, b = 2a</text>
+  <line x1="40" y1="50" x2="110" y2="50" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <text x="118" y="55" font-size="14" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">a</text>
+  <line x1="40" y1="72" x2="180" y2="72" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <text x="188" y="77" font-size="14" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">b</text>
+  <line x1="40" y1="120" x2="180" y2="120" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="180" y1="136" x2="40" y2="136" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="40" cy="128" r="11" fill="none" stroke="#8B7BD8" stroke-width="2"/>
+  <text x="110" y="112" font-size="13" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">2a</text>
+  <text x="110" y="154" font-size="13" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">(−1)b</text>
+  <text x="20" y="190" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">2a + (−1)b = 0</text>
+  <text x="20" y="208" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">traseu închis ⇒ σ′ dependent</text>
+  <line x1="245" y1="15" x2="245" y2="225" stroke="#909090" stroke-width="0.8"/>
+  <text x="260" y="22" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">sistemul σ = {a, b, c}</text>
+  <line x1="280" y1="50" x2="350" y2="50" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <text x="358" y="55" font-size="14" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">a</text>
+  <line x1="280" y1="72" x2="420" y2="72" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <text x="428" y="77" font-size="14" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">b</text>
+  <line x1="440" y1="100" x2="470" y2="45" stroke="#4CA88A" stroke-width="2.6" marker-end="url(#at)"/>
+  <text x="446" y="60" font-size="14" fill="#4CA88A" text-anchor="start" font-weight="normal" font-style="italic">c</text>
+  <line x1="280" y1="120" x2="420" y2="120" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="420" y1="136" x2="280" y2="136" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="280" cy="128" r="11" fill="none" stroke="#8B7BD8" stroke-width="2"/>
+  <text x="350" y="112" font-size="13" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">2a</text>
+  <text x="350" y="154" font-size="13" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">(−1)b</text>
+  <circle cx="440" cy="128" r="5" fill="none" stroke="#4CA88A" stroke-width="2"/>
+  <text x="452" y="133" font-size="13" fill="#4CA88A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">0·c</text>
+  <text x="260" y="190" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">2a + (−1)b + 0·c = 0</text>
+  <text x="260" y="208" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">același traseu ⇒ σ dependent</text>
+  <text x="20" y="248" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">c primește coeficientul 0: traseul nu se schimbă, iar</text>
+  <text x="20" y="267" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">2² + (−1)² + 0² = 5 ≠ 0 rămâne netrivială</text>
+</svg>

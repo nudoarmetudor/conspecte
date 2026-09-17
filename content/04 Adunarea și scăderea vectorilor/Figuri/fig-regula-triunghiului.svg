@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" width="460" height="250" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <line x1="60" y1="205" x2="195" y2="70" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="195" y1="70" x2="400" y2="130" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <line x1="60" y1="205" x2="400" y2="130" stroke="#8B7BD8" stroke-width="3" marker-end="url(#av)"/>
+  <circle cx="60" cy="205" r="4.5" fill="#909090"/>
+  <circle cx="195" cy="70" r="4.5" fill="#909090"/>
+  <circle cx="400" cy="130" r="4.5" fill="#909090"/>
+  <text x="46" y="211" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="195" y="58" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="414" y="134" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">C</text>
+  <text x="111.5" y="131.5" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="107" y1="112.5" x2="116" y2="112.5" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <text x="303.5" y="88" font-size="17" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">b</text>
+  <line x1="299" y1="69" x2="308" y2="69" stroke="#E08A3C" stroke-width="1.3" marker-end="url(#ao)"/>
+  <text x="230" y="197.5" font-size="17" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">a+b</text>
+  <line x1="218.5" y1="178.5" x2="241.5" y2="178.5" stroke="#8B7BD8" stroke-width="1.3" marker-end="url(#av)"/>
+</svg>

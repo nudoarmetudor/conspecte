@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 575 310" width="575" height="310" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+  </defs>
+  <polygon points="40,290 130,220 330,220 240,290" fill="#909090" fill-opacity="0.1" stroke="#909090" stroke-width="1.2" stroke-opacity="0.7"/>
+  <polygon points="40,150 130,80 330,80 240,150" fill="#909090" fill-opacity="0.1" stroke="#909090" stroke-width="1.2" stroke-opacity="0.7"/>
+  <text x="20" y="24" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a₁ ∥ a₂,  b₁ ∥ b₂,  a₁ și b₁ concurente</text>
+  <line x1="95" y1="255" x2="275" y2="255" stroke="#4C86D6" stroke-width="2.6"/>
+  <line x1="149" y1="283" x2="221" y2="227" stroke="#E08A3C" stroke-width="2.6"/>
+  <circle cx="185" cy="255" r="4.5" fill="#909090"/>
+  <text x="201" y="273" font-size="14" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O₁</text>
+  <text x="281" y="260" font-size="15" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">a₁</text>
+  <text x="229" y="240" font-size="15" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">b₁</text>
+  <text x="60" y="284" font-size="17" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">σ₁</text>
+  <line x1="95" y1="115" x2="275" y2="115" stroke="#4C86D6" stroke-width="2.6"/>
+  <line x1="149" y1="143" x2="221" y2="87" stroke="#E08A3C" stroke-width="2.6"/>
+  <circle cx="185" cy="115" r="4.5" fill="#909090"/>
+  <text x="201" y="133" font-size="14" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O₂</text>
+  <text x="281" y="120" font-size="15" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">a₂</text>
+  <text x="229" y="100" font-size="15" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">b₂</text>
+  <text x="60" y="144" font-size="17" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">σ₂</text>
+  <line x1="350" y1="40" x2="350" y2="300" stroke="#909090" stroke-width="0.8"/>
+  <text x="365" y="40" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">reducere la absurd</text>
+  <text x="365" y="64" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">dacă σ₁ ∩ σ₂ = dreapta c:</text>
+  <text x="365" y="86" font-size="12" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a₂ ∥ a₁ ⊂ σ₁ ⇒ a₂ ∥ σ₁ ⇒ a₂ ∥ c</text>
+  <text x="365" y="106" font-size="12" fill="#E08A3C" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">b₂ ∥ b₁ ⊂ σ₁ ⇒ b₂ ∥ σ₁ ⇒ b₂ ∥ c</text>
+  <line x1="370" y1="145" x2="545" y2="145" stroke="#4C86D6" stroke-width="2.4"/>
+  <text x="548" y="150" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">a₂</text>
+  <line x1="370" y1="167" x2="545" y2="167" stroke="#E08A3C" stroke-width="2.4"/>
+  <text x="548" y="172" font-size="13" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">b₂</text>
+  <line x1="370" y1="195" x2="545" y2="195" stroke="#D4696A" stroke-width="2.4" stroke-dasharray="6 4"/>
+  <text x="548" y="200" font-size="13" fill="#D4696A" text-anchor="start" font-weight="normal" font-style="italic">c</text>
+  <text x="365" y="232" font-size="12" fill="#D4696A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">⇒ a₂ ∥ b₂ — imposibil,</text>
+  <text x="365" y="250" font-size="12" fill="#D4696A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a₂ și b₂ se taie în O₂</text>
+  <text x="365" y="284" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">deci σ₁ ∩ σ₂ = ∅:  σ₁ ∥ σ₂</text>
+</svg>

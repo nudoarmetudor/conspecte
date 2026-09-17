@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 268" width="480" height="268" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+  </defs>
+  <text x="20" y="24" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">σ = {a₁, a₂, a₃} cu a₁ = 0; coeficienții: 1, 0, 0</text>
+  <circle cx="80" cy="95" r="8" fill="none" stroke="#E08A3C" stroke-width="2"/>
+  <text x="80" y="70" font-size="14" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a₁ = 0</text>
+  <line x1="190" y1="120" x2="290" y2="75" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <text x="226" y="88" font-size="15" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">a₂</text>
+  <line x1="350" y1="70" x2="440" y2="125" stroke="#4CA88A" stroke-width="2.8" marker-end="url(#at)"/>
+  <text x="408" y="86" font-size="15" fill="#4CA88A" text-anchor="start" font-weight="normal" font-style="italic">a₃</text>
+  <line x1="15" y1="145" x2="465" y2="145" stroke="#909090" stroke-width="0.8"/>
+  <circle cx="80" cy="175" r="4" fill="#E08A3C"/>
+  <text x="80" y="200" font-size="13" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">1·a₁ = 0</text>
+  <circle cx="240" cy="175" r="4" fill="#909090"/>
+  <text x="240" y="200" font-size="13" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">0·a₂ = 0</text>
+  <circle cx="395" cy="175" r="4" fill="#909090"/>
+  <text x="395" y="200" font-size="13" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">0·a₃ = 0</text>
+  <text x="20" y="236" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">suma = 0 + 0 + 0 = 0, dar 1² + 0² + 0² = 1 ≠ 0</text>
+  <text x="20" y="256" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">⇒ combinație netrivială ⇒ σ liniar dependent</text>
+</svg>

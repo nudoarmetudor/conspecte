@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 266" width="480" height="266" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <text x="20" y="22" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">cazul b):  α = 7,  β = −3  (semne opuse)</text>
+  <text x="20" y="48" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">pasul 1 — perechea (α + β, −β) = (4, 3) are același semn:</text>
+  <line x1="40" y1="58" x2="40" y2="216" stroke="#909090" stroke-width="0.9" stroke-dasharray="6 4" opacity="0.7"/>
+  <line x1="168" y1="58" x2="168" y2="216" stroke="#909090" stroke-width="0.9" stroke-dasharray="6 4" opacity="0.7"/>
+  <line x1="264" y1="58" x2="264" y2="216" stroke="#909090" stroke-width="0.9" stroke-dasharray="6 4" opacity="0.7"/>
+  <line x1="40" y1="76" x2="168" y2="76" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="168" y1="76" x2="264" y2="76" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <line x1="40" y1="100" x2="264" y2="100" stroke="#8B7BD8" stroke-width="2.8" marker-end="url(#av)"/>
+  <text x="104" y="70" font-size="13" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">4a</text>
+  <text x="216" y="70" font-size="13" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">3a</text>
+  <text x="280" y="81" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">cazul a):  4a + 3a = 7a</text>
+  <text x="20" y="132" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">pasul 2 — adunăm −3a în ambele părți:</text>
+  <line x1="40" y1="158" x2="264" y2="158" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="264" y1="174" x2="168" y2="174" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <line x1="40" y1="208" x2="168" y2="208" stroke="#8B7BD8" stroke-width="2.8" marker-end="url(#av)"/>
+  <text x="152" y="152" font-size="13" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">7a = αa</text>
+  <text x="216" y="190" font-size="13" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">−3a = βa</text>
+  <text x="104" y="226" font-size="13" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">4a</text>
+  <text x="280" y="180" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">7a + (−3a) = 4a</text>
+  <text x="20" y="254" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">adică αa + βa = (α + β)a și pentru semne opuse</text>
+</svg>

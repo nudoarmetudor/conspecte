@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+  </defs>
+  <line x1="50" y1="60" x2="215" y2="60" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <circle cx="50" cy="60" r="4.5" fill="#4C86D6"/>
+  <text x="50" y="48" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="215" y="48" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <line x1="50" y1="140" x2="255" y2="140" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <circle cx="50" cy="140" r="4.5" fill="#E08A3C"/>
+  <text x="50" y="164" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">C</text>
+  <text x="255" y="164" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">D</text>
+  <text x="280" y="105" font-size="17" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a ↑↑ b</text>
+</svg>

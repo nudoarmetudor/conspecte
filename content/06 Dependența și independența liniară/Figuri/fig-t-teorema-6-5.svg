@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 302" width="500" height="302" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <text x="20" y="22" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">ipoteza: 3a₁ + 6a₂ − 9a₃ = 0</text>
+  <text x="20" y="40" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">traseul cap la cap se închide</text>
+  <line x1="40" y1="200" x2="160" y2="100" stroke="#8B7BD8" stroke-width="2.8" marker-end="url(#av)"/>
+  <line x1="160" y1="100" x2="220" y2="210" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="220" y1="210" x2="40" y2="200" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <circle cx="40" cy="200" r="4.5" fill="#909090"/>
+  <text x="78" y="142" font-size="14" fill="#8B7BD8" text-anchor="end" font-weight="normal" font-style="italic">3a₁</text>
+  <text x="200" y="150" font-size="14" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">6a₂</text>
+  <text x="130" y="228" font-size="14" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">−9a₃</text>
+  <line x1="255" y1="15" x2="255" y2="245" stroke="#909090" stroke-width="0.8"/>
+  <text x="270" y="22" font-size="13" fill="#909090" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">izolăm a₁ (coeficient 3 ≠ 0):</text>
+  <text x="270" y="40" font-size="12" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a₁ = −2a₂ + 3a₃  (desen mărit ×3)</text>
+  <line x1="330" y1="230" x2="270" y2="120" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="270" y1="120" x2="450" y2="130" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <line x1="330" y1="230" x2="450" y2="130" stroke="#8B7BD8" stroke-width="3" marker-end="url(#av)"/>
+  <circle cx="330" cy="230" r="4.5" fill="#909090"/>
+  <text x="293" y="182" font-size="14" fill="#4C86D6" text-anchor="end" font-weight="normal" font-style="italic">−2a₂</text>
+  <text x="360" y="112" font-size="14" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">3a₃</text>
+  <text x="404" y="196" font-size="14" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-style="italic">a₁</text>
+  <text x="20" y="272" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">invers: a₁ = −2a₂ + 3a₃  ⇒  (−1)a₁ − 2a₂ + 3a₃ = 0,</text>
+  <text x="20" y="291" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">iar coeficientul −1 ≠ 0 face combinația netrivială</text>
+</svg>

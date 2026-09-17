@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 290" width="470" height="290" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <line x1="60" y1="150" x2="185" y2="55" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="185" y1="55" x2="330" y2="130" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <line x1="60" y1="150" x2="330" y2="130" stroke="#8B7BD8" stroke-width="3" marker-end="url(#av)"/>
+  <circle cx="60" cy="150" r="4.5" fill="#909090"/>
+  <circle cx="185" cy="55" r="4.5" fill="#909090"/>
+  <circle cx="330" cy="130" r="4.5" fill="#909090"/>
+  <text x="44" y="154" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="185" y="43" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="346" y="134" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">C</text>
+  <text x="355" y="100" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">oricare trei</text>
+  <text x="355" y="118" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">puncte</text>
+  <line x1="30" y1="190" x2="440" y2="190" stroke="#909090" stroke-width="1"/>
+  <line x1="45" y1="240" x2="430" y2="240" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="70" y1="240" x2="250" y2="240" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="250" y1="240" x2="360" y2="240" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <line x1="70" y1="275" x2="360" y2="275" stroke="#8B7BD8" stroke-width="3" marker-end="url(#av)"/>
+  <circle cx="70" cy="240" r="4.5" fill="#909090"/>
+  <circle cx="250" cy="240" r="3.5" fill="#909090"/>
+  <circle cx="360" cy="240" r="3.5" fill="#909090"/>
+  <text x="70" y="228" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="250" y="228" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <text x="360" y="228" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">C</text>
+  <text x="35" y="207" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">inclusiv puncte coliniare</text>
+  <text x="35" y="30" font-size="15" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">AC = AB + BC</text>
+</svg>
