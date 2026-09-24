@@ -5,6 +5,7 @@ import { readFileSync } from "node:fs"
 import { join, resolve } from "node:path"
 
 const CAMPURI_OBLIGATORII = ["slug", "nume", "vault"]
+const STARI = ["complet", "în lucru", "notițe brute", "planificat"]
 
 /** Întoarce lista cursurilor, cu `vaultAbs` rezolvat față de rădăcina proiectului. */
 export function citesteCursuri(root) {
@@ -42,6 +43,19 @@ export function citesteCursuri(root) {
       process.exit(1)
     }
     slugsVazute.add(curs.slug)
+    if (curs.stare !== undefined && !STARI.includes(curs.stare)) {
+      console.error(
+        `✗ cursuri.json: starea „${curs.stare}” a cursului „${curs.nume}” nu e cunoscută (${STARI.join(", ")}).`,
+      )
+      process.exit(1)
+    }
+    for (const camp of ["excludeFoldere", "excludeFisiere"]) {
+      if (curs[camp] !== undefined && !Array.isArray(curs[camp])) {
+        console.error(`✗ cursuri.json: „${camp}” trebuie să fie o listă (cursul „${curs.nume}”).`)
+        process.exit(1)
+      }
+      curs[camp] = curs[camp] ?? []
+    }
     curs.vaultAbs = resolve(root, curs.vault)
   }
   return cursuri

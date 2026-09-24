@@ -58,6 +58,10 @@ function suprapune(sursa, dest) {
 const rezumat = []
 for (const curs of cursuri) {
   const dest = join(content, curs.slug)
+  // Excluderi suplimentare, declarate în cursuri.json: materiale-sursă și șabloane
+  // care poartă alt nume în vault-ul acestui curs (de ex. „input”, „99 Șabloane”).
+  const folodereExcluse = new Set([...EXCLUDED_TOP_DIRS, ...curs.excludeFoldere])
+  const fisiereExcluse = new Set(curs.excludeFisiere)
   let copiate = 0
   let excluse = 0
   cpSync(curs.vaultAbs, dest, {
@@ -65,11 +69,22 @@ for (const curs of cursuri) {
     filter: (src) => {
       const rel = relative(curs.vaultAbs, src)
       if (rel === "") return true
-      if (EXCLUDED_TOP_DIRS.has(rel.split(sep)[0])) {
+      const segmente = rel.split(sep)
+      if (segmente.some((s) => folodereExcluse.has(s)) || fisiereExcluse.has(segmente.at(-1))) {
         excluse++
         return false
       }
       if (EXCLUDED_EXT.some((ext) => src.toLowerCase().endsWith(ext))) {
+        excluse++
+        return false
+      }
+      // O notă goală ar deveni o pagină goală pe site.
+      if (src.toLowerCase().endsWith(".md") && statSync(src).size > 0) {
+        if (readFileSync(src, "utf8").trim() === "") {
+          excluse++
+          return false
+        }
+      } else if (src.toLowerCase().endsWith(".md")) {
         excluse++
         return false
       }
@@ -230,12 +245,102 @@ function marcheazaCursul(text, filePath) {
   return `---\ncurs: ${slug}\n${fm[1]}\n---\n` + text.slice(fm[0].length)
 }
 
+/** Parcurge textul linie cu linie, sărind peste blocurile de cod. */
+function inAfaraCodului(text, transformaLinie) {
+  let inFence = false
+  return text
+    .split("\n")
+    .map((line) => {
+      if (/^\s*(```|~~~)/.test(line)) {
+        inFence = !inFence
+        return line
+      }
+      return inFence ? line : transformaLinie(line)
+    })
+    .join("\n")
+}
+
+/**
+ * Etichetele scrise în corpul notei (`#flashcards/psihologie/c01`) primesc de la Quartz un
+ * link cu prea multe „../" atunci când nota stă la două sau mai multe niveluri sub rădăcină,
+ * deci duc în afara site-ului. Pe site eticheta nu aduce nimic — o lăsăm ca text îngroșat.
+ * Etichetele din frontmatter (paginile de etichete, căutarea) rămân neatinse.
+ */
+let etichete = 0
+function scoateEtichetele(text) {
+  const fm = text.match(/^---\n[\s\S]*?\n---\n/)
+  const cap = fm ? fm[0] : ""
+  const corp = fm ? text.slice(fm[0].length) : text
+  const nou = inAfaraCodului(corp, (line) =>
+    // Doar la început de rând sau după spațiu: `](#ancora)` este un link intern, nu o etichetă.
+    line.replace(/(^|\s)#([\p{L}][\p{L}\d/_-]*)/gu, (whole, inainte, eticheta, pozitie) => {
+      // în interiorul unui `cod inline` nu se atinge nimic
+      if ((line.slice(0, pozitie).match(/`/g) ?? []).length % 2 === 1) return whole
+      etichete++
+      return `${inainte}**${eticheta.replace(/\//g, " / ")}**`
+    }),
+  )
+  return cap + nou
+}
+
+/**
+ * Wikilink-urile spre note care nu există (planuri de lucru, „de scris mai târziu") ar
+ * deveni pe site legături rupte. În vault sunt utile — Obsidian oferă „creează nota" —
+ * deci nu se ating acolo: aici doar li se scot parantezele, păstrând textul.
+ */
+let linkuriNerezolvate = 0
+function neutralizeazaLinkuriMoarte(text, filePath, tinte) {
+  const fm = text.match(/^---\n[\s\S]*?\n---\n/)
+  const cap = fm ? fm[0] : ""
+  const corp = fm ? text.slice(fm[0].length) : text
+  // Ținta se oprește la „|" (alias), „#"/„^" (ancoră) sau „\" (separatorul escapat „\|”,
+  // folosit în tabele, unde „|" brut ar rupe coloanele).
+  const RE_WIKILINK = /(!?)\[\[([^\]|#^\\]+)((?:[#^][^\]|\\]*)?)(?:\\?\|([^\]]*))?\]\]/g
+  const nou = corp.replace(RE_WIKILINK, (whole, bang, tinta, ancora, alias) => {
+    if (bang) return whole
+    const nume = tinta.trim()
+    if (nume === "" || tinte.has(nume.toLowerCase()) || nume.includes("/")) return whole
+    linkuriNerezolvate++
+    console.warn(`  ! legătură fără țintă: [[${nume}]] (în ${relative(content, filePath)})`)
+    return alias ?? nume
+  })
+  return cap + nou
+}
+
+// Numele notelor existente, per curs — pentru verificarea wikilink-urilor.
+const noteExistente = new Map()
+for (const curs of cursuri) {
+  const set = new Set()
+  const dir = join(content, curs.slug)
+  if (existsSync(dir)) {
+    for (const f of walk(dir)) {
+      if (f.endsWith(".md")) set.add(f.split(sep).pop().slice(0, -3).toLowerCase())
+    }
+  }
+  noteExistente.set(curs.slug, set)
+}
+// Paginile comune de la rădăcină sunt vizibile din orice curs.
+const noteComune = new Set()
+for (const f of readdirSync(content)) {
+  if (f.endsWith(".md")) noteComune.add(f.slice(0, -3).toLowerCase())
+}
+// Invers, o pagină comună (catalogul, pagina de licență) poate trimite spre orice curs.
+const toateNotele = new Set(noteComune)
+for (const set of noteExistente.values()) for (const n of set) toateNotele.add(n)
+
 let mdCount = 0
 for (const f of walk(content)) {
   if (!f.endsWith(".md")) continue
+  const slug = cursulFisierului(f)
+  const tinte = slug ? new Set([...noteExistente.get(slug), ...noteComune]) : toateNotele
   const original = readFileSync(f, "utf8")
-  const transformed = marcheazaCursul(fixSvgEmbeds(fixDisplayMath(hoistTitle(original)), f), f)
-  if (transformed !== original) writeFileSync(f, transformed, "utf8")
+  let t = hoistTitle(original)
+  t = fixDisplayMath(t)
+  t = fixSvgEmbeds(t, f)
+  t = scoateEtichetele(t)
+  t = neutralizeazaLinkuriMoarte(t, f, tinte)
+  t = marcheazaCursul(t, f)
+  if (t !== original) writeFileSync(f, t, "utf8")
   mdCount++
 }
 
@@ -248,7 +353,8 @@ for (const { curs, copiate, excluse, pagini } of rezumat) {
 console.log(`✓ ${paginiRadacina} pagini comune la rădăcina site-ului.`)
 console.log(
   `✓ Adaptate ${mdCount} note pentru Quartz: ${titlesMoved} titluri mutate în frontmatter, ` +
-    `${svgEmbeds} figuri SVG convertite în imagini.`,
+    `${svgEmbeds} figuri SVG convertite în imagini, ${etichete} etichete din corp trecute în text, ` +
+    `${linkuriNerezolvate} legături fără țintă neutralizate.`,
 )
 if (svgNerezolvate > 0) {
   console.error(`✗ ${svgNerezolvate} embed-uri de figuri nu au putut fi rezolvate.`)

@@ -4,7 +4,7 @@ title: Despre, surse și licență
 
 ## Despre site
 
-Notițe de curs de facultate, redactate de nudoarmetudor pe baza cursurilor urmate și a manualelor indicate. Materia este reorganizată pe paragrafe și completată cu explicații pas cu pas, figuri, întrebări de control și recapitulări.
+Notițe de curs de facultate, redactate de nudoarmetudor pe baza cursurilor urmate și a manualelor indicate. Materia este reorganizată pe unitățile manualului (paragrafe, module, cursuri) și completată cu explicații pas cu pas, figuri, întrebări de control și recapitulări.
 
 Fiecare curs are propria secțiune și propria pagină de surse. Lista cursurilor: [[index|pagina principală]].
 
@@ -15,17 +15,24 @@ Fiecare curs are propria secțiune și propria pagină de surse. Lista cursurilo
 
 | Curs | Sursa principală | Detalii |
 |---|---|---|
+| [[fundamentele-stiintelor-educatiei/index\|Fundamentele științelor educației]] | **Cojocaru-Borozan, M., Sadovei, L., Papuc, L., Ovcerenco, N.** *Fundamentele științelor educației*. Universitatea Pedagogică de Stat „Ion Creangă", Catedra Științe ale Educației. Chișinău: Tipografia UPS „I. Creangă", 2014. ISBN 978-9975-46-207-5. | [[Manual - Fundamentele științelor educației (2014)\|Despre manual]] |
 | [[geometrie-analitica/index\|Geometrie analitică în plan]] | **Calmuțchi, L., Afanas, D., Cioban, M.** *Geometrie analitică în plan*. Redactor responsabil D. Afanas. Universitatea de Stat din Tiraspol, Catedra Algebră, Geometrie și Topologie. Chișinău: UST, 2014. 182 p. ISBN 978-9975-76-119-2. | [[geometrie-analitica/Surse originale\|Surse originale]] |
+| [[psihologie-generala/index\|Psihologie generală]] | Notițele de la curs și bibliografia indicată la curs. | [[Bibliografie]] |
+| [[logica-matematica/index\|Logică matematică]] | Notițele de la curs. | — |
+| [[elemente-de-matematica-superioara/index\|Elemente de matematică superioară]] | Notițele de la curs. | — |
+| [[fundamentele-programarii/index\|Fundamentele programării]] | Notițele de la curs. | — |
 
-Pe lângă manual se folosesc materialele distribuite la curs și notițele proprii. Pagina de surse a fiecărui curs arată exact ce paragraf provine de unde, ce a fost omis și ce erori au fost găsite în sursă.
+Pe lângă manuale se folosesc materialele distribuite la curs și notițele proprii. Unde există, pagina de surse a cursului arată exact ce capitol provine de unde, ce a fost omis și ce erori au fost găsite în sursă.
+
+Secțiunile marcate „notițe brute" în [[index|catalog]] nu sunt conspecte: sunt notițele luate la curs, nesistematizate și neverificate.
 
 ## Ce este original și ce este citat
 
 | Conținut | Proveniență | Drepturi |
 |---|---|---|
-| definiții, enunțuri de teoreme, demonstrații, numerotarea paragrafelor și a relațiilor | preluate sau parafrazate din manualul cursului | © autorii manualului; reproduse cu indicarea sursei, în scop de studiu |
-| blocurile *Pas cu pas* și *Cum se citește figura*, întrebările de control, recapitulările, problemele rezolvate, fișele de concepte, semnalarea erorilor | redactate pentru acest site | licența CC BY-NC-SA 4.0 (mai jos) |
-| figurile SVG | desenate pentru acest site; cele marcate „după fig. N din manual" refac construcția din manual | desenul — CC BY-NC-SA 4.0; construcția geometrică — după manual |
+| definiții, enunțuri, demonstrații, clasificări, structura și numerotarea capitolelor | preluate sau parafrazate din manualul cursului | © autorii manualului; reproduse cu indicarea sursei, în scop de studiu |
+| blocurile *Pas cu pas*, *Cum se citește figura* și *Completare*, analizele comparate, întrebările de control, recapitulările, problemele rezolvate, fișele de concepte și de autori, semnalarea erorilor | redactate pentru acest site | licența CC BY-NC-SA 4.0 (mai jos) |
+| figurile SVG și diagramele | desenate pentru acest site; cele marcate „după fig. N din manual" refac construcția din manual | desenul — CC BY-NC-SA 4.0; construcția geometrică — după manual |
 
 ## Licență
 

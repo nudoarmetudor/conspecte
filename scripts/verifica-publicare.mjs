@@ -79,9 +79,10 @@ for (const rel of toCheck) {
 }
 
 // 3b. fiecare curs conține note, nu doar pagina de prezentare
+// (un curs marcat „planificat” are voie să nu aibă încă note)
 for (const curs of cursuri) {
   const dir = join(content, curs.slug)
-  if (!existsSync(dir)) continue
+  if (!existsSync(dir) || curs.stare === "planificat") continue
   const note = walk(dir).filter((f) => f.endsWith(".md")).length
   if (note < 2) {
     errors.push(`cursul „${curs.nume}” nu conține note — verificați calea vault-ului: ${curs.vault}`)

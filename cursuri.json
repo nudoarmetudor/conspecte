@@ -4,7 +4,14 @@
     "Pentru un curs nou: creați un vault Obsidian separat, adăugați o intrare aici",
     "și o pagină de prezentare în site/cursuri/<slug>/index.md. Apoi `npm run publica`.",
     "IMPORTANT: un vault per curs. Wikilink-urile Obsidian sunt globale pe vault, deci",
-    "două cursuri în același vault ar produce legături ambigue (ex. două note „Bază”)."
+    "două cursuri în același vault ar produce legături ambigue (ex. două note „Bază”).",
+    "",
+    "Câmpuri: slug, nume, vault, sursaScurta sunt folosite de site.",
+    "`stare` apare în catalog: „complet” | „în lucru” | „notițe brute” | „planificat”.",
+    "Un curs „planificat” are voie să nu conțină încă note.",
+    "`excludeFoldere` / `excludeFisiere` se adaugă la excluderile implicite",
+    "(.obsidian, .trash, Surse, Șabloane) — pentru materiale-sursă și șabloane",
+    "care au alt nume în vault-ul respectiv."
   ],
   "cursuri": [
     {
@@ -16,6 +23,59 @@
       "acoperire": "§1–§7, §9–§13",
       "stare": "în lucru",
       "sursaScurta": "L. Calmuțchi, D. Afanas, M. Cioban, «Geometrie analitică în plan», UST, Chișinău, 2014"
+    },
+    {
+      "slug": "fundamentele-stiintelor-educatiei",
+      "nume": "Fundamentele științelor educației",
+      "numeScurt": "Fundamentele științelor educației",
+      "vault": "../Fundamentele_st_educatiei",
+      "descriere": "Statutul științelor educației, formele și finalitățile educației, paradigmele pedagogiei, dimensiunile educației, noile educații, sistemul de învățământ, agenții educației și proiectarea activității educative. Cu analiză comparată pe teorii și sisteme naționale de educație.",
+      "acoperire": "modulele 1–10, toate subcapitolele",
+      "stare": "complet",
+      "sursaScurta": "M. Cojocaru-Borozan, L. Sadovei, L. Papuc, N. Ovcerenco, «Fundamentele științelor educației», UPS „Ion Creangă”, Chișinău, 2014",
+      "excludeFoldere": ["input"]
+    },
+    {
+      "slug": "psihologie-generala",
+      "nume": "Psihologie generală",
+      "numeScurt": "Psihologie generală",
+      "vault": "../Psihologie_generala",
+      "descriere": "Obiectul și sarcinile psihologiei, sistemul psihic uman, școlile și orientările psihologice, metodele de cercetare. Cu fișe de concepte, fișe de autori, glosar și întrebări de verificare.",
+      "acoperire": "cursul 1",
+      "stare": "în lucru",
+      "sursaScurta": "notițele de la curs și bibliografia indicată la curs",
+      "excludeFoldere": ["99 Șabloane"]
+    },
+    {
+      "slug": "logica-matematica",
+      "nume": "Logică matematică",
+      "numeScurt": "Logică matematică",
+      "vault": "../Logică_matematică",
+      "descriere": "Principiile raționamentului corect, logica propozițională, conectori logici, formule.",
+      "acoperire": "primele cursuri",
+      "stare": "notițe brute",
+      "sursaScurta": "notițele de la curs"
+    },
+    {
+      "slug": "elemente-de-matematica-superioara",
+      "nume": "Elemente de matematică superioară",
+      "numeScurt": "Matematică superioară",
+      "vault": "../Elemente_mate_sup",
+      "descriere": "Aritmetică, algebră și funcții elementare; baze de numerație.",
+      "acoperire": "primele cursuri",
+      "stare": "notițe brute",
+      "sursaScurta": "notițele de la curs",
+      "excludeFisiere": ["Welcome.md"]
+    },
+    {
+      "slug": "fundamentele-programarii",
+      "nume": "Fundamentele programării",
+      "numeScurt": "Fundamentele programării",
+      "vault": "../Fundamentele_programarii",
+      "descriere": "Limbajul C: alfabet, tipuri de date, structuri de control, funcții.",
+      "acoperire": "—",
+      "stare": "planificat",
+      "sursaScurta": "notițele de la curs"
     }
   ]
 }

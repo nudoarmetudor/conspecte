@@ -4,9 +4,14 @@ Site cu notițe de facultate, **sistematizate, explicate pas cu pas și ilustrat
 
 🌐 **Site:** https://nudoarmetudor.github.io/conspecte
 
-| Curs | Sursa principală |
-|---|---|
-| [Geometrie analitică în plan](https://nudoarmetudor.github.io/conspecte/geometrie-analitica/) | L. Calmuțchi, D. Afanas, M. Cioban, *Geometrie analitică în plan*, Universitatea de Stat din Tiraspol, Chișinău, 2014 (ISBN 978-9975-76-119-2) |
+| Curs | Stare | Sursa principală |
+|---|---|---|
+| [Fundamentele științelor educației](https://nudoarmetudor.github.io/conspecte/fundamentele-stiintelor-educatiei/) | complet | M. Cojocaru-Borozan, L. Sadovei, L. Papuc, N. Ovcerenco, *Fundamentele științelor educației*, UPS „Ion Creangă", Chișinău, 2014 (ISBN 978-9975-46-207-5) |
+| [Geometrie analitică în plan](https://nudoarmetudor.github.io/conspecte/geometrie-analitica/) | în lucru | L. Calmuțchi, D. Afanas, M. Cioban, *Geometrie analitică în plan*, Universitatea de Stat din Tiraspol, Chișinău, 2014 (ISBN 978-9975-76-119-2) |
+| [Psihologie generală](https://nudoarmetudor.github.io/conspecte/psihologie-generala/) | în lucru | notițele de la curs și bibliografia indicată |
+| [Logică matematică](https://nudoarmetudor.github.io/conspecte/logica-matematica/) | notițe brute | notițele de la curs |
+| [Elemente de matematică superioară](https://nudoarmetudor.github.io/conspecte/elemente-de-matematica-superioara/) | notițe brute | notițele de la curs |
+| [Fundamentele programării](https://nudoarmetudor.github.io/conspecte/fundamentele-programarii/) | planificat | notițele de la curs |
 
 > Material de studiu **neoficial**. Nu înlocuiește manualul și nu este aprobat de autorii lui, de titularii de curs sau de universitate.
 
@@ -48,8 +53,26 @@ Notele se scriu în vault-urile Obsidian, **nu** în `content/`.
    > Un vault per curs, nu unul comun: wikilink-urile Obsidian sunt globale pe vault, deci două cursuri în același vault ar produce legături ambigue (de exemplu două note „Bază").
 2. Adăugați o intrare în [`cursuri.json`](cursuri.json): `slug` (litere mici, fără diacritice), `nume`, `vault` (calea relativă), `sursaScurta`.
 3. Creați pagina de prezentare a cursului: `site/cursuri/<slug>/index.md`.
-4. Adăugați cursul în tabelul din `site/comun/index.md`.
+4. Adăugați cursul în tabelele din `site/comun/index.md` și `site/comun/Despre, surse și licență.md`.
 5. `npm run publica`.
+
+Dacă vaultul ține materiale-sursă într-un folder cu alt nume decât `Surse/` (de exemplu `input/`)
+sau șabloane în `99 Șabloane/`, adăugați-l la `excludeFoldere` în `cursuri.json` — altfel ajunge
+pe site. `npm run verifica` blochează oricum publicarea fișierelor PDF, DOCX și a imaginilor
+de tip fotografie.
+
+## Ce face sincronizarea cu notele
+
+Vaultul nu se modifică niciodată; transformările se aplică doar copiei din `content/`:
+
+| Transformare | De ce |
+|---|---|
+| primul `# Titlu` urcă în frontmatter | Quartz afișează deja titlul paginii — altfel apare de două ori |
+| `$$ … $$` pe un rând → pe trei rânduri | Obsidian îl tratează ca formulă afișată, Quartz ca formulă inline |
+| `![[fig.svg]]` → `![](/cale/absolută)` | `<object>` nu se micșorează pe telefon; iar Quartz rezolvă greșit un `../` la adâncime ≥ 2 |
+| etichetele din corpul notei → text îngroșat | la adâncime ≥ 2 Quartz le dă un link cu prea multe `../`, care iese din site |
+| wikilink-uri fără țintă → text simplu | notele „de scris mai târziu" ar apărea ca legături rupte |
+| `curs: <slug>` adăugat în frontmatter | subsolul alege sursa potrivită cursului |
 
 ## Comenzi
 
