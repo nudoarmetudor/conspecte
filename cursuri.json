@@ -1,0 +1,21 @@
+{
+  "$comentariu": [
+    "Lista cursurilor publicate pe site. Singurul loc unde se adaugă un curs nou.",
+    "Pentru un curs nou: creați un vault Obsidian separat, adăugați o intrare aici",
+    "și o pagină de prezentare în site/cursuri/<slug>/index.md. Apoi `npm run publica`.",
+    "IMPORTANT: un vault per curs. Wikilink-urile Obsidian sunt globale pe vault, deci",
+    "două cursuri în același vault ar produce legături ambigue (ex. două note „Bază”)."
+  ],
+  "cursuri": [
+    {
+      "slug": "geometrie-analitica",
+      "nume": "Geometrie analitică în plan",
+      "numeScurt": "Geometrie analitică",
+      "vault": "../Geometrie_analitică",
+      "descriere": "Vectori și operații cu ei, dependență liniară, spații vectoriale, baze și repere, coordonate afine, metrica planului, coordonate polare și produsul scalar.",
+      "acoperire": "§1–§7, §9–§13",
+      "stare": "în lucru",
+      "sursaScurta": "L. Calmuțchi, D. Afanas, M. Cioban, «Geometrie analitică în plan», UST, Chișinău, 2014"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-// Copiază vault-ul Obsidian în content/, excluzând tot ce NU trebuie publicat,
-// adaptează sintaxa pentru Quartz și suprascrie cu paginile site-ului din site/pagini/.
+// Copiază vault-urile Obsidian (unul per curs, vezi cursuri.json) în content/<slug>/,
+// excluzând tot ce NU trebuie publicat, adaptează sintaxa pentru Quartz și suprapune
+// paginile scrise pentru site (site/comun/ la rădăcină, site/cursuri/<slug>/ în curs).
 //
 // Utilizare:  npm run sincronizeaza
-// Vault-ul implicit: ../Geometrie_analitică  (se poate schimba cu VAULT=<cale>)
 //
-// Vault-ul NU este modificat; toate transformările se aplică doar copiei din content/.
+// Vault-urile NU sunt modificate; toate transformările se aplică doar copiei din content/.
 
 import {
   cpSync,
@@ -19,53 +19,69 @@ import {
 } from "node:fs"
 import { dirname, join, posix, relative, resolve, sep } from "node:path"
 import { fileURLToPath } from "node:url"
+import { citesteCursuri } from "./cursuri.mjs"
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..")
-const vault = resolve(process.env.VAULT ?? join(root, "..", "Geometrie_analitică"))
 const content = join(root, "content")
-const sitePages = join(root, "site", "pagini")
+const paginiComune = join(root, "site", "comun")
+const paginiCursuri = join(root, "site", "cursuri")
 
-// Foldere de la rădăcina vault-ului care nu se publică NICIODATĂ.
+const cursuri = citesteCursuri(root)
+
+// Foldere de la rădăcina unui vault care nu se publică NICIODATĂ.
 const EXCLUDED_TOP_DIRS = new Set([".obsidian", ".trash", "Surse", "Șabloane"])
 // Extensii care nu se publică, oriunde s-ar afla.
 const EXCLUDED_EXT = [".pdf", ".jpg", ".jpeg", ".docx", ".zip"]
 
-if (!existsSync(vault)) {
-  console.error(`✗ Nu găsesc vault-ul la: ${vault}`)
-  process.exit(1)
+for (const curs of cursuri) {
+  if (!existsSync(curs.vaultAbs)) {
+    console.error(`✗ Nu găsesc vault-ul cursului „${curs.nume}” la: ${curs.vaultAbs}`)
+    process.exit(1)
+  }
 }
 
 // ------------------------------------------------------------------ 1. copiere
 rmSync(content, { recursive: true, force: true })
 mkdirSync(content, { recursive: true })
 
-let copied = 0
-let skipped = 0
-cpSync(vault, content, {
-  recursive: true,
-  filter: (src) => {
-    const rel = relative(vault, src)
-    if (rel === "") return true
-    if (EXCLUDED_TOP_DIRS.has(rel.split(sep)[0])) {
-      skipped++
-      return false
-    }
-    if (EXCLUDED_EXT.some((ext) => src.toLowerCase().endsWith(ext))) {
-      skipped++
-      return false
-    }
-    if (statSync(src).isFile()) copied++
-    return true
-  },
-})
-
-let pages = 0
-if (existsSync(sitePages)) {
-  for (const name of readdirSync(sitePages)) {
-    cpSync(join(sitePages, name), join(content, name), { recursive: true })
-    pages++
+/** Suprapune peste `dest` fiecare intrare din `sursa`, dacă folderul există. */
+function suprapune(sursa, dest) {
+  if (!existsSync(sursa)) return 0
+  let n = 0
+  for (const name of readdirSync(sursa)) {
+    cpSync(join(sursa, name), join(dest, name), { recursive: true })
+    n++
   }
+  return n
 }
+
+const rezumat = []
+for (const curs of cursuri) {
+  const dest = join(content, curs.slug)
+  let copiate = 0
+  let excluse = 0
+  cpSync(curs.vaultAbs, dest, {
+    recursive: true,
+    filter: (src) => {
+      const rel = relative(curs.vaultAbs, src)
+      if (rel === "") return true
+      if (EXCLUDED_TOP_DIRS.has(rel.split(sep)[0])) {
+        excluse++
+        return false
+      }
+      if (EXCLUDED_EXT.some((ext) => src.toLowerCase().endsWith(ext))) {
+        excluse++
+        return false
+      }
+      if (statSync(src).isFile()) copiate++
+      return true
+    },
+  })
+  const pagini = suprapune(join(paginiCursuri, curs.slug), dest)
+  rezumat.push({ curs, copiate, excluse, pagini })
+}
+
+const paginiRadacina = suprapune(paginiComune, content)
 
 // ------------------------------------------------------------------ 2. transformări
 function walk(dir, out = []) {
@@ -77,12 +93,25 @@ function walk(dir, out = []) {
   return out
 }
 
-const allFiles = walk(content)
-const byName = new Map()
-for (const f of allFiles) {
-  const name = f.split(sep).pop()
-  if (!byName.has(name)) byName.set(name, [])
-  byName.get(name).push(f)
+// Indexul figurilor se construiește SEPARAT pentru fiecare curs: două cursuri pot avea
+// figuri cu același nume, iar un embed trebuie rezolvat în interiorul cursului său.
+const indexFiguri = new Map() // slug -> Map<numeFișier, cale>
+for (const curs of cursuri) {
+  const perCurs = new Map()
+  const dir = join(content, curs.slug)
+  if (existsSync(dir)) {
+    for (const f of walk(dir)) {
+      const name = f.split(sep).pop()
+      if (!perCurs.has(name)) perCurs.set(name, f)
+    }
+  }
+  indexFiguri.set(curs.slug, perCurs)
+}
+
+/** Cursul în care se află un fișier din content/ (sau null pentru paginile comune). */
+function cursulFisierului(filePath) {
+  const primulSegment = relative(content, filePath).split(sep)[0]
+  return indexFiguri.has(primulSegment) ? primulSegment : null
 }
 
 /**
@@ -137,27 +166,38 @@ function fixDisplayMath(text) {
 
 /**
  * `![[fig-x.svg]]` devine în Quartz un <object>, care nu se micșorează pe ecrane mici.
- * Îl înlocuim cu o imagine Markdown obișnuită (<img>), cu calea relativă reală.
+ * Îl înlocuim cu o imagine Markdown obișnuită (<img>).
+ *
+ * Calea este ABSOLUTĂ față de rădăcina conținutului („/curs/folder/Figuri/fig.svg"), nu
+ * relativă: Quartz rezolvă greșit un „../" atunci când nota se află la mai mult de un nivel
+ * sub rădăcină (ajunge să ignore folderul cursului). Căile absolute sunt rezolvate corect,
+ * inclusiv adăugarea prefixului de bază al site-ului.
  */
 let svgEmbeds = 0
+let svgNerezolvate = 0
 function fixSvgEmbeds(text, filePath) {
+  const slug = cursulFisierului(filePath)
+  const perCurs = slug ? indexFiguri.get(slug) : null
   return text.replace(/!\[\[([^\]|#]+\.svg)(?:\|[^\]]*)?\]\]/g, (whole, name) => {
-    const targets = byName.get(name.trim())
-    if (!targets) return whole
-    const rel = relative(dirname(filePath), targets[0]).split(sep).join(posix.sep)
-    const url = rel
-      .split("/")
+    const target = perCurs?.get(name.trim())
+    if (!target) {
+      svgNerezolvate++
+      console.warn(`  ! figură negăsită: ${name.trim()} (în ${relative(content, filePath)})`)
+      return whole
+    }
+    const url = relative(content, target)
+      .split(sep)
       .map((seg) => encodeURIComponent(seg))
-      .join("/")
+      .join(posix.sep)
     svgEmbeds++
-    return `![figură](${url.startsWith(".") ? url : "./" + url})`
+    return `![figură](/${url})`
   })
 }
 
 /**
  * Notele Obsidian încep cu un titlu `# …`, iar Quartz afișează deja titlul paginii.
  * Mutăm primul `# …` în frontmatter (`title`) și îl scoatem din corp, ca să nu apară de două ori.
- * Titlul din nota originală se păstrează (de ex. „V₂" cu indice, nu „V2" din numele fișierului).
+ * Titlul din nota originală se păstrează (de ex. „V₂” cu indice, nu „V2” din numele fișierului).
  */
 let titlesMoved = 0
 function hoistTitle(text) {
@@ -172,22 +212,45 @@ function hoistTitle(text) {
   const title = h1[1].trim().replace(/\\/g, "\\\\").replace(/"/g, '\\"')
   const newBody = body.slice(h1[0].length)
   titlesMoved++
-  const newFrontmatter = frontmatter !== null ? `title: "${title}"\n${frontmatter}` : `title: "${title}"`
+  const newFrontmatter =
+    frontmatter !== null ? `title: "${title}"\n${frontmatter}` : `title: "${title}"`
   return `---\n${newFrontmatter}\n---\n${newBody}`
 }
 
+/**
+ * Notele unui curs primesc automat `curs: <slug>` în frontmatter, ca subsolul să poată
+ * afișa sursa cursului corect atunci când site-ul găzduiește mai multe cursuri.
+ */
+function marcheazaCursul(text, filePath) {
+  const slug = cursulFisierului(filePath)
+  if (!slug) return text
+  const fm = text.match(/^---\n([\s\S]*?)\n---\n/)
+  if (!fm) return `---\ncurs: ${slug}\n---\n${text}`
+  if (/^curs:/m.test(fm[1])) return text
+  return `---\ncurs: ${slug}\n${fm[1]}\n---\n` + text.slice(fm[0].length)
+}
+
 let mdCount = 0
-for (const f of allFiles) {
+for (const f of walk(content)) {
   if (!f.endsWith(".md")) continue
   const original = readFileSync(f, "utf8")
-  const transformed = fixSvgEmbeds(fixDisplayMath(hoistTitle(original)), f)
+  const transformed = marcheazaCursul(fixSvgEmbeds(fixDisplayMath(hoistTitle(original)), f), f)
   if (transformed !== original) writeFileSync(f, transformed, "utf8")
   mdCount++
 }
 
-console.log(`✓ Vault: ${vault}`)
-console.log(`✓ Copiate ${copied} fișiere, excluse ${skipped} intrări, ${pages} pagini de site suprapuse.`)
+// ------------------------------------------------------------------ 3. raport
+for (const { curs, copiate, excluse, pagini } of rezumat) {
+  console.log(
+    `✓ ${curs.nume} → content/${curs.slug}/ : ${copiate} fișiere, ${excluse} intrări excluse, ${pagini} pagini de site suprapuse.`,
+  )
+}
+console.log(`✓ ${paginiRadacina} pagini comune la rădăcina site-ului.`)
 console.log(
   `✓ Adaptate ${mdCount} note pentru Quartz: ${titlesMoved} titluri mutate în frontmatter, ` +
     `${svgEmbeds} figuri SVG convertite în imagini.`,
 )
+if (svgNerezolvate > 0) {
+  console.error(`✗ ${svgNerezolvate} embed-uri de figuri nu au putut fi rezolvate.`)
+  process.exit(1)
+}

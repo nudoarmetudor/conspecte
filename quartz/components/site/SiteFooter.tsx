@@ -1,6 +1,16 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 import { FullSlug, joinSegments, resolveRelative } from "../../util/path"
 import { siteInfo } from "./siteInfo"
+import cursuriJson from "../../../cursuri.json"
+
+/** Sursa cursului căruia îi aparține pagina; paginile comune primesc sursa implicită. */
+function sursaPaginii(fileData: QuartzComponentProps["fileData"]): string {
+  const slugCurs =
+    (typeof fileData.frontmatter?.curs === "string" ? fileData.frontmatter.curs : undefined) ??
+    (fileData.slug ?? "").split("/")[0]
+  const curs = cursuriJson.cursuri.find((c) => c.slug === slugCurs)
+  return curs?.sursaScurta ?? siteInfo.sursaImplicita
+}
 
 /** Subsol: susținere, drepturi de autor, licență, sursa principală, credite tehnice. */
 const SiteFooter: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzComponentProps) => {
@@ -33,7 +43,7 @@ const SiteFooter: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzComponen
         )}
       </p>
       <p class="subsol-sursa">
-        Material de studiu neoficial, bazat pe {siteInfo.sursaScurta}. Fragmentele citate din
+        Material de studiu neoficial, bazat pe {sursaPaginii(fileData)}. Fragmentele citate din
         manual aparțin autorilor lor.
       </p>
       <p class="subsol-tehnic">

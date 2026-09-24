@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Geometrie analitică în plan
-  pageTitleSuffix: " · Geometrie analitică"
+  pageTitle: Conspecte
+  pageTitleSuffix: " · Conspecte"
   enableSPA: true
   enablePopovers: true
   analytics: null
@@ -134,6 +134,9 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      title: Cursuri
+      folderDefaultState: collapsed
     layout:
       position: left
       priority: 50

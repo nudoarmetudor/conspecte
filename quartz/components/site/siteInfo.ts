@@ -16,9 +16,11 @@ export const siteInfo = {
   /** Imaginea QR, în quartz/static/. */
   plataQr: "static/sustine-qr.jpg",
 
-  /** Manualul pe care se bazează notițele — apare în subsol. */
-  sursaScurta:
-    "L. Calmuțchi, D. Afanas, M. Cioban, «Geometrie analitică în plan», UST, Chișinău, 2014",
+  /**
+   * Sursa afișată în subsol când pagina nu aparține niciunui curs (pagina principală,
+   * „Despre", 404). Sursa fiecărui curs se ia din `cursuri.json` (câmpul `sursaScurta`).
+   */
+  sursaImplicita: "manualele și cursurile indicate pe pagina fiecărui curs",
 
   licenta: {
     nume: "CC BY-NC-SA 4.0",

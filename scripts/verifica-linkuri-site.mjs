@@ -58,6 +58,11 @@ for (const file of htmlFiles) {
 }
 
 console.log(`Pagini HTML: ${htmlFiles.length}, referințe interne verificate: ${checked}`)
+// Un public/ gol sau parțial ar trece verificarea fără să găsească nimic de verificat.
+if (htmlFiles.length < 10) {
+  console.log("✗ Prea puține pagini în public/ — construiți întâi site-ul (`npx quartz build`).")
+  process.exit(1)
+}
 if (broken.size) {
   console.log(`✗ Ținte inexistente: ${broken.size}`)
   for (const [target, pages] of broken) {

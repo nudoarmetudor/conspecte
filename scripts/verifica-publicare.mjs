@@ -6,6 +6,7 @@ import { execSync } from "node:child_process"
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs"
 import { dirname, join, relative, resolve, sep } from "node:path"
 import { fileURLToPath } from "node:url"
+import { citesteCursuri } from "./cursuri.mjs"
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..")
 const content = join(root, "content")
@@ -24,9 +25,19 @@ function walk(dir, out = []) {
   return out
 }
 
-// 1. conținutul există
+// 1. conținutul există: catalogul de la rădăcină și câte o pagină pentru fiecare curs
 if (!existsSync(join(content, "index.md"))) {
   errors.push("content/index.md lipsește — rulați întâi `npm run sincronizeaza`.")
+}
+const cursuri = citesteCursuri(root)
+for (const curs of cursuri) {
+  if (!existsSync(join(content, curs.slug))) {
+    errors.push(`content/${curs.slug}/ lipsește — rulați întâi \`npm run sincronizeaza\`.`)
+  } else if (!existsSync(join(content, curs.slug, "index.md"))) {
+    errors.push(
+      `cursul „${curs.nume}” nu are pagină de prezentare: site/cursuri/${curs.slug}/index.md.`,
+    )
+  }
 }
 
 // 2. nimic din materialele-sursă nu ajunge în content/
@@ -50,6 +61,7 @@ if (existsSync(content)) {
 const toCheck = [
   "quartz.config.yaml",
   "quartz/components/site/siteInfo.ts",
+  "cursuri.json",
   "README.md",
   ...(existsSync(content)
     ? walk(content)
@@ -63,6 +75,16 @@ for (const rel of toCheck) {
   const text = readFileSync(path, "utf8")
   for (const ph of PLACEHOLDERS) {
     if (text.includes(ph)) errors.push(`valoare necompletată „${ph}" în ${rel}`)
+  }
+}
+
+// 3b. fiecare curs conține note, nu doar pagina de prezentare
+for (const curs of cursuri) {
+  const dir = join(content, curs.slug)
+  if (!existsSync(dir)) continue
+  const note = walk(dir).filter((f) => f.endsWith(".md")).length
+  if (note < 2) {
+    errors.push(`cursul „${curs.nume}” nu conține note — verificați calea vault-ului: ${curs.vault}`)
   }
 }
 
