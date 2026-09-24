@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 265" width="470" height="265" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#909090"/></marker>
+  </defs>
+  <line x1="50" y1="215" x2="450" y2="215" stroke="#909090" stroke-width="1.2" marker-end="url(#ag)"/>
+  <line x1="90" y1="245" x2="90" y2="50" stroke="#909090" stroke-width="1.2" marker-end="url(#ag)"/>
+  <text x="452" y="221" font-size="15" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+  <text x="82" y="44" font-size="15" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+  <path d="M 319.0 215.0 L 319.0 204.0 L 330.0 204.0" fill="none" stroke="#909090" stroke-width="1.3"/>
+  <line x1="330" y1="95" x2="90" y2="95" stroke="#909090" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <line x1="90" y1="215" x2="330" y2="215" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="330" y1="215" x2="330" y2="95" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <line x1="90" y1="215" x2="330" y2="95" stroke="#8B7BD8" stroke-width="3.2" marker-end="url(#av)"/>
+  <circle cx="90" cy="215" r="4.5" fill="#909090"/>
+  <text x="76" y="231" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="344" y="91" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="200" y="238" font-size="16" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+  <text x="342" y="160" font-size="16" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+  <text x="204" y="143" font-size="17" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="199.5" y1="124" x2="208.5" y2="124" stroke="#8B7BD8" stroke-width="1.3" marker-end="url(#av)"/>
+  <text x="30" y="258" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">|a| = √(x² + y²) — teorema lui Pitagora în triunghiul OA₁A</text>
+</svg>

@@ -94,7 +94,7 @@ Incluziunile: $[AB] \subset [AB) \subset (AB)$.
 | $(xOy)$, $O\vec{e}_1\vec{e}_2$ | sistem afin de coordonate |
 | $(Ox)$, $(Oy)$ | axa absciselor, axa ordonatelor |
 | $\vec{e}_1 \perp \vec{e}_2$ | vectori perpendiculari |
-| $\widehat{(\vec{a}, \vec{b})}$ | unghiul orientat de la $\vec{a}$ la $\vec{b}$ (contrar acelor) |
+| $\widehat{(\vec{a}, \vec{b})}$ | unghiul dintre $\vec a$ și $\vec b$ — vezi precizarea de la §13 |
 | $P_{(Ox)}\vec{a}$ | proiecția **geometrică** (vector) a lui $\vec{a}$ pe $(Ox)$ |
 | $\operatorname{pr}_{(Ox)}\vec{a}$ | proiecția **algebrică** (număr) a lui $\vec{a}$ pe $(Ox)$ |
 | $\vec{a} = \{x;\ y\}$ | coordonatele vectorului (acolade) |
@@ -102,6 +102,35 @@ Incluziunile: $[AB] \subset [AB) \subset (AB)$.
 | $\vec{OM}$ | raza vectoare a punctului $M$ |
 | $\begin{vmatrix} x_1 & y_1 \\ x_2 & y_2 \end{vmatrix}$ | determinantul $x_1y_2 - x_2y_1$ |
 | $\lambda = \dfrac{\vec{M_1M_0}}{\vec{M_0M_2}}$ | raportul în care $M_0$ împarte $\overline{M_1M_2}$ ($\lambda \ne -1$) |
+
+## Metrică, coordonate polare și produs scalar (§11–§13)
+
+| Simbol | Se citește |
+|---|---|
+| $R = \{O, \vec{i}, \vec{j}\}$ | reper rectangular cartezian ($\lvert\vec i\rvert = \lvert\vec j\rvert = 1$, $\vec i \perp \vec j$) |
+| $\varphi$ | unghiul dintre $\vec{i}$ și vectorul dat |
+| $\rho(A, B)$ | distanța dintre punctele $A$ și $B$ |
+| $R = \{O, \vec{i}\}$ | reper **polar** (un singur vector de bază) |
+| $M(r;\ \varphi)$ | coordonatele polare: rază polară și unghi polar |
+| $[OE)$ | axa polară; $O$ — polul |
+| $(\vec{a}, \vec{b})$ | **produsul scalar** — un **număr**, nu un vector |
+| $\widehat{(\vec{a}, \vec{b})}$ | unghiul **neorientat** dintre vectori, $\in [0;\ \pi]$ (§13) |
+| $\vec{a}^{\,2}$ | pătratul scalar, $= (\vec a, \vec a) = \lvert\vec a\rvert^2$ |
+| $\vec{a} \perp \vec{b}$ | vectori reciproc perpendiculari, $\widehat{(\vec a, \vec b)} = \pi/2$ |
+| $\{\vec i, \vec j\}$ ortonormată | bază ortogonală **și** normată — ipoteza teoremei 13.5 |
+
+> [!warning] Aceleași paranteze, trei înțelesuri
+> | Scriere | Ce este |
+> |---|---|
+> | $M(x;\ y)$ | coordonatele unui **punct** (punct-virgulă între ele) |
+> | $\widehat{(\vec a, \vec b)}$ | **unghiul** dintre doi vectori (accent circumflex deasupra) |
+> | $(\vec a, \vec b)$ | **produsul scalar** — un număr |
+>
+> Alte manuale scriu produsul scalar $\vec a \cdot \vec b$ sau $\langle \vec a, \vec b \rangle$. Aici se păstrează notația cursului.
+
+> [!note] Unghi neorientat (§13) vs. unghi orientat (§14)
+> În §13, $\widehat{(\vec a, \vec b)}$ este un unghi **fără semn**, cuprins între $0$ și $\pi$, cu $\widehat{(\vec a, \vec b)} = \widehat{(\vec b, \vec a)}$.
+> În §14, aceeași notație capătă **semn** (pozitiv dacă baza $\{\vec a, \vec b\}$ este dreaptă, negativ dacă e stângă). Verificați întotdeauna paragraful în care vă aflați.
 
 ## Sintaxă LaTeX folosită în vault
 

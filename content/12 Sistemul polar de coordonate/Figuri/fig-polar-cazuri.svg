@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 250" width="480" height="250" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#909090"/></marker>
+  </defs>
+  <line x1="245" y1="20" x2="245" y2="235" stroke="#909090" stroke-width="0.8"/>
+  <text x="25" y="30" font-size="14" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">același punct, două unghiuri</text>
+  <line x1="60" y1="120" x2="230" y2="120" stroke="#909090" stroke-width="1.2" marker-end="url(#ag)"/>
+  <line x1="130" y1="120" x2="130" y2="210" stroke="#8B7BD8" stroke-width="3" marker-end="url(#av)"/>
+  <circle cx="130" cy="210" r="5" fill="#8B7BD8"/>
+  <text x="146" y="216" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">M</text>
+  <path d="M 176.0 120.0 A 46 46 0 1 0 125.2 165.7" fill="none" stroke="#4C86D6" stroke-width="1.7" marker-end="url(#ab)"/>
+  <text x="92" y="92" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">3π/2</text>
+  <path d="M 159.9 122.1 A 30 30 0 0 1 131.0 150.0" fill="none" stroke="#E08A3C" stroke-width="1.7" marker-end="url(#ao)"/>
+  <text x="150" y="158" font-size="13" fill="#E08A3C" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">−π/2</text>
+  <circle cx="130" cy="120" r="5" fill="#909090"/>
+  <text x="116" y="114" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="25" y="236" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">M(3; 3π/2) = M(3; −π/2)</text>
+  <text x="262" y="30" font-size="14" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">polul: unghiul nu e definit</text>
+  <line x1="290" y1="120" x2="460" y2="120" stroke="#909090" stroke-width="1.2" marker-end="url(#ag)"/>
+  <line x1="360" y1="120" x2="430" y2="60" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="360" y1="120" x2="420" y2="175" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="360" y1="120" x2="300" y2="70" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="360" y1="120" x2="296" y2="168" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <circle cx="360" cy="120" r="7" fill="#8B7BD8"/>
+  <text x="346" y="112" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="262" y="214" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">r = 0, iar φ poate fi orice:</text>
+  <text x="262" y="236" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">coordonatele polului nu sunt unice.</text>
+</svg>

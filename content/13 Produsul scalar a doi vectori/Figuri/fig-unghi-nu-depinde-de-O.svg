@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 275" width="500" height="275" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+  </defs>
+  <line x1="60" y1="210" x2="155" y2="75" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="60" y1="210" x2="230" y2="180" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <path d="M 121.1 199.2 A 62 62 0 0 0 95.6 159.2" fill="none" stroke="#8B7BD8" stroke-width="1.8"/>
+  <circle cx="60" cy="210" r="4.5" fill="#909090"/>
+  <text x="46" y="218" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="155" y="65" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="244" y="186" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+  <line x1="290" y1="210" x2="385" y2="75" stroke="#4C86D6" stroke-width="2.8" marker-end="url(#ab)"/>
+  <line x1="290" y1="210" x2="460" y2="180" stroke="#E08A3C" stroke-width="2.8" marker-end="url(#ao)"/>
+  <path d="M 351.1 199.2 A 62 62 0 0 0 325.6 159.2" fill="none" stroke="#8B7BD8" stroke-width="1.8"/>
+  <circle cx="290" cy="210" r="4.5" fill="#909090"/>
+  <text x="274" y="218" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O₁</text>
+  <text x="385" y="65" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A₁</text>
+  <text x="476" y="186" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">B₁</text>
+  <line x1="155" y1="75" x2="385" y2="75" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="230" y1="180" x2="460" y2="180" stroke="#909090" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="25" y="256" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">laturi respectiv paralele ⇒ unghiuri congruente:</text>
+  <text x="25" y="236" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">unghiul nu depinde de punctul ales</text>
+</svg>

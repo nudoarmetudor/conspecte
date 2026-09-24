@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 280" width="470" height="280" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#909090"/></marker>
+  </defs>
+  <line x1="74" y1="30" x2="74" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="98" y1="30" x2="98" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="122" y1="30" x2="122" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="146" y1="30" x2="146" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="170" y1="30" x2="170" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="194" y1="30" x2="194" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="218" y1="30" x2="218" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="242" y1="30" x2="242" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="266" y1="30" x2="266" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="290" y1="30" x2="290" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="314" y1="30" x2="314" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="338" y1="30" x2="338" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="362" y1="30" x2="362" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="386" y1="30" x2="386" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="410" y1="30" x2="410" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="434" y1="30" x2="434" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="458" y1="30" x2="458" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="30" x2="458" y2="30" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="54" x2="458" y2="54" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="78" x2="458" y2="78" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="102" x2="458" y2="102" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="126" x2="458" y2="126" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="150" x2="458" y2="150" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="174" x2="458" y2="174" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="198" x2="458" y2="198" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="222" x2="458" y2="222" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="74" y1="246" x2="458" y2="246" stroke="#909090" stroke-width="0.8" opacity="0.35"/>
+  <line x1="66" y1="190" x2="458" y2="190" stroke="#909090" stroke-width="1.2" marker-end="url(#ag)"/>
+  <line x1="170" y1="256" x2="170" y2="26" stroke="#909090" stroke-width="1.2" marker-end="url(#ag)"/>
+  <text x="450" y="210" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+  <text x="178" y="32" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+  <line x1="122" y1="142" x2="218" y2="46" stroke="#4C86D6" stroke-width="2.6"/>
+  <line x1="122" y1="142" x2="410" y2="238" stroke="#E08A3C" stroke-width="2.6"/>
+  <line x1="218" y1="46" x2="410" y2="238" stroke="#4CA88A" stroke-width="2.6"/>
+  <circle cx="122" cy="142" r="5" fill="#909090"/>
+  <circle cx="218" cy="46" r="5" fill="#909090"/>
+  <circle cx="410" cy="238" r="5" fill="#909090"/>
+  <text x="44" y="134" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">A(−2; 2)</text>
+  <text x="188" y="36" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">B(2; 6)</text>
+  <text x="370" y="260" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">C(10; −2)</text>
+  <text x="118" y="118" font-size="14" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">4√2</text>
+  <text x="250" y="200" font-size="14" fill="#E08A3C" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">4√10</text>
+  <text x="330" y="110" font-size="14" fill="#4CA88A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">8√2</text>
+</svg>

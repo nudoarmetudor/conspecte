@@ -7,11 +7,12 @@ tags:
   - index
 ---
 
-Notițe de curs, sistematizate pe **paragrafele cursului (§1–§7, §9–§10)**. Fiecare paragraf are folderul lui, cu lecțiile numerotate în ordinea predării și figurile alături.
+Notițe de curs, sistematizate pe **paragrafele cursului (§1–§7, §9–§13)**. Fiecare paragraf are folderul lui, cu lecțiile numerotate în ordinea predării și figurile alături.
 
 > [!tip] Intrări rapide
 > - **[[Recapitulare — vectori]]** — tot formularul §3–§7 pe o pagină
 > - **[[Recapitulare — baze și coordonate]]** — tot formularul §9–§10 pe o pagină
+> - **[[Recapitulare — metrica planului]]** — tot formularul §11–§13 pe o pagină
 > - **[[Notații și simboluri]]** — ce înseamnă fiecare simbol
 > - **[[#Firul logic al cursului]]** — de ce vine fiecare noțiune după cealaltă
 
@@ -96,7 +97,28 @@ Manualul, p. 35–39. Din el se folosesc în §10 definiția raportului pe dreap
 | 5 | [[Coordonatele punctului. Raza vectoare]] | definițiile 10.6–10.7, formula (5) |
 | 6 | [[Împărțirea segmentului în raportul dat]] | definiția 10.8, formulele (6)–(9) |
 
-### §11 — *(de adăugat)*
+### §11 — Sistemul de coordonate rectangular cartezian
+
+| # | Lecția | Conținut |
+|---|---|---|
+| 1 | [[Sistemul rectangular cartezian. Coordonatele și modulul unui vector]] | proprietățile 1⁰–2⁰, formulele (10)–(11), $\operatorname{tg}\varphi = y/x$ |
+| 2 | [[Distanța dintre două puncte]] | proprietatea 3⁰, formula (12), exemplul 11.1 |
+
+### §12 — Sistemul polar de coordonate
+
+| # | Lecția | Conținut |
+|---|---|---|
+| 1 | [[Reperul polar. Coordonate polare]] | pol, axă polară, rază polară, unghi polar |
+| 2 | [[Trecerea între coordonate polare și carteziene]] | $x = r\cos\varphi$, $y = r\sin\varphi$ și invers; exemplul 12.1 |
+
+### §13 — Produsul scalar a doi vectori
+
+| # | Lecția | Conținut |
+|---|---|---|
+| 1 | [[Unghiul dintre doi vectori. Perpendicularitate]] | definiția unghiului, independența de $O$, $\vec a \perp \vec b$ |
+| 2 | [[Produsul scalar — definiție și interpretare]] | definiția 13.1, formulele (1)–(2), exemplul 13.2 |
+| 3 | [[Proprietățile produsului scalar. Expresia în coordonate]] | teoremele 13.3 și 13.5, consecințele 13.4, 13.6, 13.7 |
+| 4 | [[Ce nu se transferă de la numere. Aplicații]] | cele trei capcane, exemplul 13.8 |
 
 ## Concepte
 
@@ -108,11 +130,13 @@ Fișe scurte de referință, în folderul `Concepte/`:
 - **Algebră liniară:** [[Combinație liniară]] · [[Dependență liniară]] · [[Spațiu vectorial]]
 - **Transformări:** [[Omotetie]]
 - **Coordonate:** [[Bază]] · [[Reper afin]] · [[Sistem afin de coordonate]] · [[Orientarea planului]] · [[Proiecția unui vector]] · [[Rază vectoare]] · [[Raportul de împărțire a segmentului]]
+- **Metrică (§11–§13):** [[Sistem rectangular cartezian]] · [[Bază ortonormată]] · [[Distanța dintre două puncte (formulă)]] · [[Coordonate polare]] · [[Unghiul dintre doi vectori]] · [[Vectori perpendiculari]] · [[Produs scalar]] · [[Pătrat scalar]]
 
 ## Referință
 
 - [[Recapitulare — vectori]] — formulele, teoremele și capcanele §3–§7
 - [[Recapitulare — baze și coordonate]] — formulele §9–§10 și erorile găsite în manual
+- [[Recapitulare — metrica planului]] — formulele §11–§13: distanțe, coordonate polare, produs scalar
 - [[Probleme rezolvate — vectori]] — 7 aplicații clasice, rezolvate pas cu pas
 - [[Notații și simboluri]] — toate simbolurile folosite în curs
 - [[Surse originale]] — fotografiile caietului, PDF-ul lectorului, manualul, notițele brute
@@ -133,6 +157,9 @@ graph TD
   S6 --> S9["§9 · SPAȚIUL V₂<br/>bază, coordonatele vectorului"]
   S7 --> S9
   S9 --> S10["§10 · SISTEM AFIN<br/>coordonatele punctului"]
+  S10 --> S11["§11 · RECTANGULAR CARTEZIAN<br/>apar distanțele"]
+  S11 --> S12["§12 · SISTEM POLAR<br/>aceleași puncte, alt limbaj"]
+  S11 --> S13["§13 · PRODUSUL SCALAR<br/>apar unghiurile"]
 ```
 
 Citit în cuvinte:
@@ -145,6 +172,9 @@ Citit în cuvinte:
 6. **§7 Spațiul vectorial** — cele opt proprietăți strânse la un loc dau structura abstractă.
 7. **§9 Spațiul $V_2$** — în plan, doi vectori necoliniari formează o **bază**; fiecare vector primește o pereche unică de numere.
 8. **§10 Sistemul afin** — adăugând o **origine**, și fiecare **punct** primește o pereche de numere. De aici, problemele de geometrie se rezolvă prin calcul.
+9. **§11 Sistemul rectangular cartezian** — cerând axe perpendiculare și unități egale cu $1$, coordonatele încep să **măsoare**: apar modulul $\sqrt{x^2+y^2}$ și distanța dintre două puncte.
+10. **§12 Sistemul polar** — același plan descris prin *distanță + direcție* în loc de *două deplasări*. Nimic logic nou; un limbaj mai potrivit pentru figurile radiale.
+11. **§13 Produsul scalar** — prima operație care dă **un număr**. Cu ea, perpendicularitatea devine ecuația $a_1b_1 + a_2b_2 = 0$, iar unghiurile se calculează în loc să fie măsurate.
 
 > [!tip] Ideea centrală a cursului
 > Fiecare noțiune **geometrică** primește un echivalent **algebric**:
@@ -156,6 +186,9 @@ Citit în cuvinte:
 > | „nimic în plus" | independență liniară |
 > | un punct din plan | o pereche $(x;\ y)$ |
 > | mijlocul unui segment | $\left(\tfrac{x_1+x_2}{2};\ \tfrac{y_1+y_2}{2}\right)$ |
+> | distanța dintre două puncte | $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ |
+> | perpendicularitate | $a_1b_1 + a_2b_2 = 0$ |
+> | unghi | $\cos\widehat{(\vec a,\vec b)} = \dfrac{(\vec a,\vec b)}{\lvert\vec a\rvert\lvert\vec b\rvert}$ |
 >
 > Aceasta este **geometria analitică**: figurile devin ecuații.
 

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 306" width="470" height="306" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#909090"/></marker>
+  </defs>
+  <line x1="40" y1="250" x2="450" y2="250" stroke="#909090" stroke-width="1.3" marker-end="url(#ag)"/>
+  <line x1="80" y1="285" x2="80" y2="40" stroke="#909090" stroke-width="1.3" marker-end="url(#ag)"/>
+  <text x="452" y="256" font-size="15" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+  <text x="72" y="34" font-size="15" fill="#909090" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+  <path d="M 91.0 250.0 L 91.0 239.0 L 80.0 239.0" fill="none" stroke="#909090" stroke-width="1.3"/>
+  <line x1="320" y1="250" x2="320" y2="110" stroke="#909090" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <line x1="80" y1="110" x2="320" y2="110" stroke="#909090" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <line x1="80" y1="250" x2="320" y2="250" stroke="#4C86D6" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="80" y1="250" x2="80" y2="110" stroke="#E08A3C" stroke-width="2" marker-end="url(#ao)"/>
+  <line x1="80" y1="250" x2="140" y2="250" stroke="#4C86D6" stroke-width="3.4" marker-end="url(#ab)"/>
+  <line x1="80" y1="250" x2="80" y2="190" stroke="#E08A3C" stroke-width="3.4" marker-end="url(#ao)"/>
+  <line x1="80" y1="250" x2="320" y2="110" stroke="#8B7BD8" stroke-width="3" marker-end="url(#av)"/>
+  <path d="M 145.8 245.4 A 66 66 0 0 0 139.3 221.1" fill="none" stroke="#8B7BD8" stroke-width="1.8" marker-end="url(#av)"/>
+  <circle cx="80" cy="250" r="4.5" fill="#909090"/>
+  <text x="66" y="268" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="334" y="104" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="320" y="272" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A₁</text>
+  <text x="60" y="114" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">A₂</text>
+  <text x="116" y="242" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">i</text>
+  <line x1="111.5" y1="223" x2="120.5" y2="223" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <text x="62" y="216" font-size="17" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">j</text>
+  <line x1="57.5" y1="197" x2="66.5" y2="197" stroke="#E08A3C" stroke-width="1.3" marker-end="url(#ao)"/>
+  <text x="206" y="166" font-size="17" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="201.5" y1="147" x2="210.5" y2="147" stroke="#8B7BD8" stroke-width="1.3" marker-end="url(#av)"/>
+  <text x="152" y="232" font-size="17" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-style="italic">φ</text>
+  <text x="30" y="296" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">x = |a| cos φ,   y = |a| sin φ — proiecții ortogonale pe axe</text>
+</svg>

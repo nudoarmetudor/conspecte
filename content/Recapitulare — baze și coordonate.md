@@ -106,4 +106,5 @@ graph TD
 
 - Index: [[Geometrie analitică în plan]]
 - Recapitularea anterioară: [[Recapitulare — vectori]]
+- Continuare: [[Recapitulare — metrica planului]] — formularul §11–§13
 - Notații: [[Notații și simboluri]]

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250" width="500" height="250" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+  </defs>
+  <line x1="250" y1="20" x2="250" y2="235" stroke="#909090" stroke-width="0.8"/>
+  <text x="25" y="30" font-size="14" fill="#D4696A" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">nu se poate „simplifica"</text>
+  <line x1="70" y1="150" x2="200" y2="150" stroke="#4C86D6" stroke-width="3" marker-end="url(#ab)"/>
+  <line x1="70" y1="150" x2="70" y2="60" stroke="#E08A3C" stroke-width="3" marker-end="url(#ao)"/>
+  <path d="M 83.0 150.0 L 83.0 137.0 L 70.0 137.0" fill="none" stroke="#909090" stroke-width="1.3"/>
+  <circle cx="70" cy="150" r="4" fill="#909090"/>
+  <text x="150" y="172" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="145.5" y1="153" x2="154.5" y2="153" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <text x="50" y="100" font-size="17" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">b</text>
+  <line x1="45.5" y1="81" x2="54.5" y2="81" stroke="#E08A3C" stroke-width="1.3" marker-end="url(#ao)"/>
+  <text x="25" y="196" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">a ≠ 0, b ≠ 0, dar (a, b) = 0.</text>
+  <text x="25" y="216" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">La numere, αβ = 0 cere</text>
+  <text x="25" y="232" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">α = 0 sau β = 0.</text>
+  <text x="268" y="30" font-size="14" fill="#D4696A" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">nu e asociativ</text>
+  <line x1="300" y1="120" x2="390" y2="92" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <text x="340" y="92" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="335.5" y1="73" x2="344.5" y2="73" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <line x1="300" y1="120" x2="360" y2="180" stroke="#4CA88A" stroke-width="2.6" marker-end="url(#at)"/>
+  <text x="344" y="168" font-size="17" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-style="italic">c</text>
+  <line x1="339.5" y1="149" x2="348.5" y2="149" stroke="#4CA88A" stroke-width="1.3" marker-end="url(#at)"/>
+  <line x1="300" y1="120" x2="466" y2="68" stroke="#8B7BD8" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#av)"/>
+  <line x1="300" y1="120" x2="410" y2="230" stroke="#E08A3C" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#ao)"/>
+  <text x="398" y="62" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">q = (b, c)·a</text>
+  <text x="352" y="240" font-size="13" fill="#E08A3C" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">p = (a, b)·c</text>
+  <text x="268" y="204" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">p e coliniar cu c, q e coliniar cu a</text>
+</svg>

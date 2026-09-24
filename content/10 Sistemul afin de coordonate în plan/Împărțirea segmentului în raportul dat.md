@@ -218,6 +218,7 @@ $$
 ## Legături
 
 - Anterior: [[Coordonatele punctului. Raza vectoare]]
+- Continuare: [[Sistemul rectangular cartezian. Coordonatele și modulul unui vector]]
 - Se sprijină pe: [[Raportul a doi vectori coliniari]], [[Operații cu vectori în coordonate]]
 - Concepte: [[Raportul de împărțire a segmentului]]
 - Recapitulare: [[Recapitulare — baze și coordonate]]

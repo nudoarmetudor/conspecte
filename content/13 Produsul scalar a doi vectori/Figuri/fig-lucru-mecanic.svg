@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 250" width="470" height="250" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+  </defs>
+  <line x1="80" y1="185" x2="370" y2="185" stroke="#8B7BD8" stroke-width="3.2" marker-end="url(#av)"/>
+  <circle cx="80" cy="185" r="5" fill="#909090"/>
+  <circle cx="370" cy="185" r="5" fill="#909090"/>
+  <text x="72" y="207" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">M₁</text>
+  <text x="370" y="207" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">M₂</text>
+  <line x1="80" y1="185" x2="185.172" y2="108.588" stroke="#4C86D6" stroke-width="3" marker-end="url(#ab)"/>
+  <line x1="185.172" y1="108.588" x2="185.172" y2="185" stroke="#909090" stroke-width="1.1" stroke-dasharray="6 4"/>
+  <line x1="80" y1="185" x2="185.172" y2="185" stroke="#4CA88A" stroke-width="3" marker-end="url(#at)"/>
+  <path d="M 126.0 183.4 A 46 46 0 0 0 118.1 159.3" fill="none" stroke="#E08A3C" stroke-width="1.8"/>
+  <text x="136" y="172" font-size="16" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">φ</text>
+  <text x="179.172" y="100.588" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">F</text>
+  <line x1="174.672" y1="81.5879" x2="183.672" y2="81.5879" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <text x="265" y="215" font-size="17" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">M₁M₂</text>
+  <line x1="250" y1="196" x2="280" y2="196" stroke="#8B7BD8" stroke-width="1.3" marker-end="url(#av)"/>
+  <text x="120" y="208" font-size="13" fill="#4CA88A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">|F| cos φ</text>
+  <text x="25" y="238" font-size="14" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">A = |F| · |M₁M₂| · cos φ = (F, M₁M₂)</text>
+</svg>
