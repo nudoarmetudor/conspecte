@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 290" width="470" height="290" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+  </defs>
+  <line x1="50" y1="240" x2="440" y2="240" stroke="#4C86D6" stroke-width="1.2" marker-end="url(#ab)"/>
+  <line x1="110" y1="262" x2="110" y2="30" stroke="#4C86D6" stroke-width="1.2" marker-end="url(#ab)"/>
+  <text x="442" y="245" font-size="14" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">x</text>
+  <text x="96" y="38" font-size="14" fill="#4C86D6" text-anchor="start" font-weight="normal" font-style="italic">y</text>
+  <line x1="110" y1="240" x2="343.827" y2="105" stroke="#E08A3C" stroke-width="1.4" marker-end="url(#ao)"/>
+  <line x1="110" y1="240" x2="35" y2="110.096" stroke="#E08A3C" stroke-width="1.4" marker-end="url(#ao)"/>
+  <text x="347.827" y="103" font-size="14" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">x′</text>
+  <text x="17" y="114.096" font-size="14" fill="#E08A3C" text-anchor="start" font-weight="normal" font-style="italic">y′</text>
+  <line x1="231.244" y1="170" x2="231.244" y2="240" stroke="#4C86D6" stroke-width="1" stroke-dasharray="6 4"/>
+  <line x1="231.244" y1="170" x2="110" y2="170" stroke="#4C86D6" stroke-width="1" stroke-dasharray="6 4"/>
+  <path d="M 165.9 237.1 A 56 56 0 0 0 159.9 214.6" fill="none" stroke="#4CA88A" stroke-width="1.8" marker-end="url(#at)"/>
+  <circle cx="110" cy="240" r="4.5" fill="#909090"/>
+  <circle cx="231.244" cy="170" r="5.5" fill="#8B7BD8"/>
+  <text x="98" y="254" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="243.244" y="164" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">M</text>
+  <text x="177.615" y="221.883" font-size="13" fill="#4CA88A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">α = 30°</text>
+  <text x="221.244" y="260" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">√3</text>
+  <text x="88" y="175" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">1</text>
+  <text x="262" y="198" font-size="13" fill="#E08A3C" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">în sistemul nou: M(2; 0)</text>
+  <text x="262" y="218" font-size="13" fill="#4C86D6" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">în sistemul vechi: M(√3; 1)</text>
+  <text x="20" y="282" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">x = 2·cos 30° − 0·sin 30° = √3,   y = 2·sin 30° + 0·cos 30° = 1</text>
+</svg>

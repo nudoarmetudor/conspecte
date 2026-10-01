@@ -131,7 +131,24 @@ Incluziunile: $[AB] \subset [AB) \subset (AB)$.
 
 > [!note] Unghi neorientat (§13) vs. unghi orientat (§14)
 > În §13, $\widehat{(\vec a, \vec b)}$ este un unghi **fără semn**, cuprins între $0$ și $\pi$, cu $\widehat{(\vec a, \vec b)} = \widehat{(\vec b, \vec a)}$.
-> În §14, aceeași notație capătă **semn** (pozitiv dacă baza $\{\vec a, \vec b\}$ este dreaptă, negativ dacă e stângă). Verificați întotdeauna paragraful în care vă aflați.
+> În §14–§15, aceeași notație capătă **semn**: pozitiv dacă $\vec b$ se obține din $\vec a$ prin rotație contrar acelor, negativ dacă în sensul acelor; valori în $(-\pi;\ \pi]$. Verificați întotdeauna paragraful în care vă aflați.
+>
+> **Atenție:** în §10 rotația contrar acelor e numită orientare „stângă”, în §14–§15 — „dreaptă”. Sensul pozitiv e același; s-a inversat doar cuvântul. Vezi [[Unghiul orientat dintre doi vectori]].
+
+## Unghi orientat, arie și transformări (§14–§15)
+
+| Simbol | Se citește |
+|---|---|
+| $\widehat{(\vec a, \vec b)} \in (-\pi;\ \pi]$ | unghiul **orientat** de la $\vec a$ la $\vec b$ |
+| $S_{\Delta ABC}$ | aria **orientată** a triunghiului (cu semn) |
+| $\operatorname{mod}$ | valoarea absolută (scrierea manualului pentru $\lvert\cdot\rvert$ aplicat unui determinant) |
+| u.p. | unități pătrate |
+| $O\vec e_1\vec e_2$, $O'\vec e_1{}'\vec e_2{}'$ | sistemul **vechi**, sistemul **nou** |
+| $(x;\ y)$, $(x';\ y')$ | coordonatele aceluiași punct în sistemul vechi, respectiv nou |
+| $c_{ij}$ | coordonata $i$ a vectorului nou $j$, în baza veche |
+| $C = (c_{ij})$ | matricea de trecere — coloanele sunt vectorii noi |
+| $\alpha = \widehat{(\vec i, \vec i{}')}$ | unghiul de rotație al axelor |
+| $\varepsilon = \pm 1$ | $+1$: aceeași orientare, $-1$: orientări opuse; $= \det C$ |
 
 ## Sintaxă LaTeX folosită în vault
 

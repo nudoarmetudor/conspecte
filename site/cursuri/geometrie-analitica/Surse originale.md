@@ -23,6 +23,8 @@ Materialele pe baza cărora au fost redactate notele acestui curs. Licența, dre
 | §11 Sistemul de coordonate rectangular cartezian | 50–52 | [[Sistemul rectangular cartezian. Coordonatele și modulul unui vector]], [[Distanța dintre două puncte]] |
 | §12 Sistemul polar de coordonate | 53–55 | [[Reperul polar. Coordonate polare]], [[Trecerea între coordonate polare și carteziene]] |
 | §13 Produsul scalar a doi vectori | 55–60 | [[Unghiul dintre doi vectori. Perpendicularitate]], [[Produsul scalar — definiție și interpretare]], [[Proprietățile produsului scalar. Expresia în coordonate]], [[Ce nu se transferă de la numere. Aplicații]] |
+| §14 Unghiul dintre doi vectori pe planul orientat. Aria triunghiului | 60–65 | [[Unghiul orientat dintre doi vectori]], [[Coordonatele vectorului prin unghiul orientat]], [[Aria triunghiului în coordonate]] |
+| §15 Formulele de transformare ale coordonatelor | 65–69 | [[Transformarea sistemului afin de coordonate]], [[Rotația sistemului rectangular cartezian]] |
 
 Exemplele 9.4, 9.5, 10.9 și 10.10 din manual **nu** au fost incluse.
 
@@ -51,3 +53,11 @@ Fiecare eroare este explicată în nota corespunzătoare. Cele marcate **calcul*
 | p. 57, teorema 13.3 | demonstrată prin formula (3), enunțată abia în teorema 13.5 | referință înainte; nu e cerc vicios, dar ordinea logică este 13.5 → 13.3 |
 | p. 59, punctul 3) | $\big((\vec a, \vec b), \vec c\big) \ne \big(\vec a, (\vec b, \vec c)\big)$ | paranteza interioară este un **număr**, deci exteriorul nu e produs scalar; sensul corect: $(\vec a,\vec b)\vec c \ne (\vec b,\vec c)\vec a$ |
 | p. 60, exemplul 13.8 | „$\beta = m(\angle BCA) = 45°$" | $\beta = m(\angle ABC)$; $\angle BCA$ este $\gamma$, folosit trei rânduri mai jos |
+| p. 60–61 și 67 față de p. 44 | rotația contrar acelor e numită orientare „dreaptă” (în §10: „stângă”) | sensul pozitiv e același; s-a inversat doar numele |
+| p. 60–61 față de p. 45 | unghiul orientat în $(-\pi;\ \pi]$ (în §10: $[0;\ 2\pi)$) | două convenții; diferă cu $2\pi$, au aceleași sin și cos |
+| p. 61, teorema 14.1 | „într-o bază ortonormată” | trebuie bază ortonormată **dreaptă** — demonstrația folosește $\widehat{(\vec j, \vec i)} = -\pi/2$ |
+| p. 63, formula (7) | „sau” între aria cu $\sin\hat A$ și cea cu unghi orientat | nu sunt echivalente: a doua dă **arie cu semn** |
+| p. 64, fig. 55 | $A(3;7)$ desenat jos, $B(2;-3)$ sus | desen schematic, inversat față de coordonate; rezultatul 37 e corect |
+| p. 66 | „vectorii $\vec e_1$ și $\vec e_2$ sunt necoliniari, atunci $\det C \ne 0$” | $\vec e_1{}'$ și $\vec e_2{}'$ — coloanele lui $C$ sunt vectorii **noi** |
+| p. 66, translația | matricea de trecere $\begin{pmatrix} 1 & 0 \\ 1 & 0 \end{pmatrix}$ | matricea unitate; cea tipărită e singulară |
+| p. 67 | „B. Rotația axelor” pentru formulele (7) ale cazului afin | (7) e o schimbare de bază oarecare; rotație e doar cazul rectangular cu aceeași orientare |

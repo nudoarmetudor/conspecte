@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 340" width="540" height="340" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#D4696A"/></marker>
+  </defs>
+  <text x="22" y="26" font-size="14" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">cazul simplu</text>
+  <line x1="120" y1="172" x2="220" y2="172" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="120" y1="172" x2="181.065" y2="99.2258" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <line x1="120" y1="172" x2="89.9022" y2="89.307" stroke="#4CA88A" stroke-width="2.6" marker-end="url(#at)"/>
+  <path d="M 157.9 170.0 A 38 38 0 0 0 145.9 144.2" fill="none" stroke="#8B7BD8" stroke-width="1.8" marker-end="url(#av)"/>
+  <path d="M 150.1 132.1 A 50 50 0 0 0 105.4 124.2" fill="none" stroke="#8B7BD8" stroke-width="1.8" marker-end="url(#av)"/>
+  <path d="M 191.9 168.2 A 72 72 0 0 0 98.9 103.1" fill="none" stroke="#D4696A" stroke-width="1.6" marker-end="url(#ar)"/>
+  <circle cx="120" cy="172" r="4.2" fill="#909090"/>
+  <text x="206" y="194" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="201.5" y1="175" x2="210.5" y2="175" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <text x="189.421" y="89.2672" font-size="17" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">b</text>
+  <line x1="184.921" y1="70.2672" x2="193.921" y2="70.2672" stroke="#E08A3C" stroke-width="1.3" marker-end="url(#ao)"/>
+  <text x="75.9022" y="85.307" font-size="17" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-style="italic">c</text>
+  <line x1="71.4022" y1="66.307" x2="80.4022" y2="66.307" stroke="#4CA88A" stroke-width="1.3" marker-end="url(#at)"/>
+  <text x="22" y="278" font-size="14" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">50° + 60° = 110°</text>
+  <text x="22" y="298" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">(a, b) + (b, c) = (a, c) exact</text>
+  <line x1="270" y1="15" x2="270" y2="325" stroke="#909090" stroke-width="0.8"/>
+  <text x="288" y="26" font-size="14" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">suma iese din (−π, π]</text>
+  <line x1="390" y1="162" x2="490" y2="162" stroke="#4C86D6" stroke-width="2.6" marker-end="url(#ab)"/>
+  <line x1="390" y1="162" x2="342.5" y2="79.7276" stroke="#E08A3C" stroke-width="2.6" marker-end="url(#ao)"/>
+  <line x1="390" y1="162" x2="351" y2="229.55" stroke="#4CA88A" stroke-width="2.6" marker-end="url(#at)"/>
+  <path d="M 424.0 160.2 A 34 34 0 0 0 374.6 131.7" fill="none" stroke="#8B7BD8" stroke-width="1.8" marker-end="url(#av)"/>
+  <path d="M 364.9 123.4 A 46 46 0 0 0 364.9 200.6" fill="none" stroke="#8B7BD8" stroke-width="1.8" marker-end="url(#av)"/>
+  <path d="M 451.9 165.2 A 62 62 0 0 1 361.9 217.2" fill="none" stroke="#D4696A" stroke-width="1.8" marker-end="url(#ar)"/>
+  <circle cx="390" cy="162" r="4.2" fill="#909090"/>
+  <text x="476" y="184" font-size="17" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+  <line x1="471.5" y1="165" x2="480.5" y2="165" stroke="#4C86D6" stroke-width="1.3" marker-end="url(#ab)"/>
+  <text x="335" y="66.7372" font-size="17" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">b</text>
+  <line x1="330.5" y1="47.7372" x2="339.5" y2="47.7372" stroke="#E08A3C" stroke-width="1.3" marker-end="url(#ao)"/>
+  <text x="335" y="231.55" font-size="17" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-style="italic">c</text>
+  <line x1="330.5" y1="212.55" x2="339.5" y2="212.55" stroke="#4CA88A" stroke-width="1.3" marker-end="url(#at)"/>
+  <text x="288" y="278" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">120° + 120° = 240°, dar (a, c) = −120°</text>
+  <text x="288" y="298" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">240° − 360° = −120° ⇒ sin și cos</text>
+  <text x="288" y="316" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">coincid, unghiurile nu</text>
+</svg>

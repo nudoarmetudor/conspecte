@@ -10,10 +10,10 @@ tags:
   - recapitulare
 ---
 
-Formularul §11–§13 pe o singură pagină. Pentru demonstrații și figuri, urmați legăturile.
+Formularul §11–§15 pe o singură pagină. Pentru demonstrații și figuri, urmați legăturile.
 
-> [!tip] Firul celor trei paragrafe
-> §10 a dat **unde** se află un punct. §11 adaugă **cât de departe** (distanțe). §13 adaugă **sub ce unghi** (produsul scalar). §12 nu adaugă nimic nou logic — oferă un al doilea limbaj, potrivit pentru figurile radiale.
+> [!tip] Firul celor cinci paragrafe
+> §10 a dat **unde** se află un punct. §11 adaugă **cât de departe** (distanțe). §13 adaugă **sub ce unghi** (produsul scalar). §14 adaugă **în ce parte** (unghiul orientat) și, din el, **aria**. §15 arată cum se schimbă toate acestea când **schimbăm sistemul**. §12 nu adaugă nimic nou logic — oferă un al doilea limbaj, potrivit pentru figurile radiale.
 
 ## 1. Sistemul rectangular cartezian (§11)
 
@@ -85,7 +85,47 @@ Caz particular: $\lvert\vec a+\vec b\rvert^2 = \lvert\vec a\rvert^2 + 2(\vec a,\
 | simplificare prin factor comun | **nu** — din $(\vec a,\vec b) = (\vec a,\vec c)$ rezultă doar $\vec a \perp (\vec b - \vec c)$ |
 | asociativitate | **nu** — $(\vec a,\vec b)\vec c$ e coliniar cu $\vec c$, $(\vec b,\vec c)\vec a$ cu $\vec a$ |
 
-## 6. Harta logică §11–§13
+## 6. Unghiul orientat (§14)
+
+$\widehat{(\vec a, \vec b)} \in (-\pi;\ \pi]$: pozitiv dacă $\vec b$ se obține din $\vec a$ prin rotație **contrar acelor**, negativ dacă **în sensul acelor**.
+
+| # | Formulă | |
+|---|---|---|
+| (1) | $\sin\widehat{(\vec a,\vec b)} = -\sin\widehat{(\vec b,\vec a)}$, $\ \cos\widehat{(\vec a,\vec b)} = \cos\widehat{(\vec b,\vec a)}$ | ordinea contează |
+| (2) | $\widehat{(\vec a,\vec b)} + \widehat{(\vec b,\vec c)} \equiv \widehat{(\vec a,\vec c)} \pmod{2\pi}$ | doar sin și cos coincid |
+| (3) | $a_1 = \lvert\vec a\rvert\cos\widehat{(\vec i,\vec a)}$, $\ a_2 = \lvert\vec a\rvert\sin\widehat{(\vec i,\vec a)}$ | T. 14.1, bază ortonormată **dreaptă** |
+| (5) | $\cos\varphi = \dfrac{a_1b_1 + a_2b_2}{\lvert\vec a\rvert\lvert\vec b\rvert}$, $\ \sin\varphi = \dfrac{a_1b_2 - a_2b_1}{\lvert\vec a\rvert\lvert\vec b\rvert}$ | unghiul orientat în coordonate |
+| (6) | $\operatorname{tg}\varphi = \dfrac{a_1b_2 - a_2b_1}{a_1b_1 + a_2b_2}$ | **nu** determină singur unghiul |
+
+**Determinantul $a_1b_2 - a_2b_1$:** $= 0$ ⇔ coliniari · $> 0$ ⇔ $\vec b$ „la stânga" lui $\vec a$ · $\lvert\cdot\rvert$ = aria paralelogramului pe $\vec a$, $\vec b$.
+
+## 7. Aria triunghiului (§14)
+
+| # | Formulă | |
+|---|---|---|
+| (7) | $S = \frac12\lvert\vec{AB}\rvert\lvert\vec{AC}\rvert\sin\widehat{(\vec{AB},\vec{AC})}$ | cu unghi orientat ⇒ arie cu semn |
+| (8) | $S_{\Delta ABC} = \frac12\begin{vmatrix} x_2 - x_1 & y_2 - y_1 \\ x_3 - x_1 & y_3 - y_1 \end{vmatrix}$ | **arie orientată**: $> 0$ dacă $A \to B \to C$ e contrar acelor |
+| (9) | $S_{\Delta ABC} = \frac12\operatorname{mod}\begin{vmatrix} \dots \end{vmatrix}$ | aria obișnuită |
+
+**Ex. 14.5:** $A(3;7)$, $B(2;-3)$, $C(-1;4)$ ⇒ $\det = -37$, $S_{\Delta ABC} = \frac{37}{2}$, $S_{ABCD} = 37$, $D(0;\ 14)$.
+
+## 8. Transformarea coordonatelor (§15)
+
+Sistemul nou: originea $O'(x_0;\ y_0)$, vectorii $\vec e_1{}' = \{c_{11};\ c_{21}\}$, $\vec e_2{}' = \{c_{12};\ c_{22}\}$ — toate **în sistemul vechi**.
+
+| # | Caz | Formulele |
+|---|---|---|
+| (5) | general | $x = c_{11}x' + c_{12}y' + x_0$, $\ y = c_{21}x' + c_{22}y' + y_0$ |
+| (6) | translație | $x = x' + x_0$, $\ y = y' + y_0$ |
+| (7) | aceeași origine | $x = c_{11}x' + c_{12}y'$, $\ y = c_{21}x' + c_{22}y'$ |
+| (9) | rectangular, aceeași orientare | $x = x'\cos\alpha - y'\sin\alpha + x_0$, $\ y = x'\sin\alpha + y'\cos\alpha + y_0$ |
+| (10) | rotație în jurul originii | (9) cu $x_0 = y_0 = 0$ |
+| (11) | rectangular, orientări opuse | $x = x'\cos\alpha + y'\sin\alpha + x_0$, $\ y = x'\sin\alpha - y'\cos\alpha + y_0$ |
+| (12) | unificat | $x = x'\cos\alpha - \varepsilon y'\sin\alpha + x_0$, $\ y = x'\sin\alpha + \varepsilon y'\cos\alpha + y_0$ |
+
+**Matricea de trecere** $C = (c_{ij})$: coloanele = vectorii noi. $\det C \ne 0$. Între baze ortonormate $\det C = \varepsilon = \pm 1$; inversa e transpusa.
+
+## 9. Harta logică §11–§15
 
 ```mermaid
 graph TD
@@ -101,12 +141,18 @@ graph TD
   F --> J["(6) perpendicularitate"]
   F --> K["(7) unghiul"]
   G --> K
+  K --> L["§14 · unghi orientat<br/>sin φ = det / (|a||b|)"]
+  L --> M["(8) aria orientată"]
+  L --> N["T.14.1 · a = |a|(cos, sin)"]
+  A --> P["§15 · formulele (5)<br/>matricea de trecere"]
+  N --> Q["(12) rotația<br/>det = ±1"]
+  P --> Q
 ```
 
 > [!note] Ordinea reală a demonstrațiilor
 > Manualul enunță teorema 13.3 înaintea teoremei 13.5, dar o **demonstrează folosind formula (3)** din 13.5. Nu e cerc vicios: 13.5 se sprijină doar pe definiția 13.1, teorema cosinusului, formula (11) și criteriul de coliniaritate din §5. Lanțul logic este **13.5 → 13.3**.
 
-## 7. Capcane frecvente
+## 10. Capcane frecvente
 
 1. **Formulele metrice cer reper rectangular cartezian.** Într-un reper oblic sau cu unități inegale, (10)–(12), (3), (6), (7) sunt **false**.
 2. **$\operatorname{tg}\varphi = y/x$ nu identifică unghiul** — nu distinge cadranele opuse. Folosiți perechea $(\cos\varphi, \sin\varphi)$.
@@ -115,8 +161,12 @@ graph TD
 5. **Polul nu are unghi polar.** Formulele $\cos\varphi = x/r$ își pierd sensul pentru $r = 0$.
 6. **$\vec a^{\,2}$ este un număr.** Nu se poate itera, deci $\vec a^{\,3}$ nu există.
 7. **Produsul scalar nul nu înseamnă vector nul.** Înseamnă perpendicularitate.
+8. **„Dreaptă” și „stângă” își schimbă sensul între §10 și §14.** Rețineți rotația: contrar acelor = pozitiv, în ambele paragrafe.
+9. **Aria din (8) are semn.** Pentru aria obișnuită luați valoarea absolută (9).
+10. **În matricea de trecere, vectorii noi sunt coloane, nu rânduri.** Altfel obțineți transpusa — și formule greșite.
+11. **Teorema 14.1 cere bază dreaptă.** Cu $\vec j$ la $-90°$ de $\vec i$, formula lui $a_2$ își schimbă semnul.
 
-## Erori găsite în manual (§11–§13)
+## Erori găsite în manual (§11–§15)
 
 | Loc | Ce scrie | Ce ar trebui |
 |---|---|---|
@@ -126,11 +176,19 @@ graph TD
 | p. 57 | teorema 13.3 demonstrată prin formula (3) din teorema 13.5, enunțată ulterior | referință înainte; nu e cerc vicios, dar ordinea logică este 13.5 → 13.3 |
 | p. 59 | $\big((\vec a, \vec b), \vec c\big) \neq \big(\vec a, (\vec b, \vec c)\big)$ | paranteza interioară e un **număr**, deci exteriorul nu e produs scalar; sensul corect e $(\vec a,\vec b)\vec c \ne (\vec b,\vec c)\vec a$ |
 | **p. 60, ex. 13.8** | „de unde obținem $\beta = m(\angle BCA) = 45°$" | $\beta = m(\angle ABC)$; $\angle BCA$ este $\gamma$, folosit trei rânduri mai jos |
+| **p. 60–61, 67 vs. p. 44** | rotația contrar acelor e numită orientare „dreaptă” (în §10: „stângă”) | sensul pozitiv e același; doar numele e inversat — rețineți sensul rotației |
+| p. 60–61 vs. p. 45 | unghiul orientat în $(-\pi;\ \pi]$ (în §10: $[0;\ 2\pi)$) | două convenții; diferă cu $2\pi$, au aceleași sin și cos |
+| p. 61, teorema 14.1 | „într-o bază ortonormată” | trebuie **bază ortonormată dreaptă**; demonstrația folosește $\widehat{(\vec j, \vec i)} = -\pi/2$ |
+| p. 63, formula (7) | „sau” între $\frac12\lvert AB\rvert\lvert AC\rvert\sin\hat A$ și formula cu unghi orientat | nu sunt echivalente: a doua dă **arie cu semn** |
+| p. 64, fig. 55 | $A(3;7)$ desenat jos, $B(2;-3)$ sus | desen schematic, inversat față de coordonate; rezultatul (37) e corect |
+| **p. 66** | „vectorii $\vec e_1$ și $\vec e_2$ sunt necoliniari, atunci $\det C \ne 0$” | $\vec e_1{}'$ și $\vec e_2{}'$ — coloanele lui $C$ sunt vectorii **noi** |
+| **p. 66, translația** | matricea de trecere $\begin{pmatrix} 1 & 0 \\ 1 & 0 \end{pmatrix}$ | matricea unitate $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$; cea tipărită e singulară |
+| p. 67 | titlul „B. Rotația axelor” pentru formulele (7) din cazul afin | (7) e o schimbare de bază oarecare; rotație e doar cazul rectangular cu aceeași orientare |
 
 Vezi și tabelul complet din [[Surse originale]].
 
 ## Legături
 
-- Lecțiile: [[Sistemul rectangular cartezian. Coordonatele și modulul unui vector]] · [[Distanța dintre două puncte]] · [[Reperul polar. Coordonate polare]] · [[Trecerea între coordonate polare și carteziene]] · [[Unghiul dintre doi vectori. Perpendicularitate]] · [[Produsul scalar — definiție și interpretare]] · [[Proprietățile produsului scalar. Expresia în coordonate]] · [[Ce nu se transferă de la numere. Aplicații]]
+- Lecțiile: [[Sistemul rectangular cartezian. Coordonatele și modulul unui vector]] · [[Distanța dintre două puncte]] · [[Reperul polar. Coordonate polare]] · [[Trecerea între coordonate polare și carteziene]] · [[Unghiul dintre doi vectori. Perpendicularitate]] · [[Produsul scalar — definiție și interpretare]] · [[Proprietățile produsului scalar. Expresia în coordonate]] · [[Ce nu se transferă de la numere. Aplicații]] · [[Unghiul orientat dintre doi vectori]] · [[Coordonatele vectorului prin unghiul orientat]] · [[Aria triunghiului în coordonate]] · [[Transformarea sistemului afin de coordonate]] · [[Rotația sistemului rectangular cartezian]]
 - Anterior: [[Recapitulare — baze și coordonate]]
 - [[Notații și simboluri]] · [[Geometrie analitică în plan]]

@@ -8,12 +8,12 @@ tags:
   - index
 ---
 
-Notițe de curs, sistematizate pe **paragrafele cursului (§1–§7, §9–§13)**. Fiecare paragraf are folderul lui, cu lecțiile numerotate în ordinea predării și figurile alături.
+Notițe de curs, sistematizate pe **paragrafele cursului (§1–§7, §9–§15)**. Fiecare paragraf are folderul lui, cu lecțiile numerotate în ordinea predării și figurile alături.
 
 > [!tip] Intrări rapide
 > - **[[Recapitulare — vectori]]** — tot formularul §3–§7 pe o pagină
 > - **[[Recapitulare — baze și coordonate]]** — tot formularul §9–§10 pe o pagină
-> - **[[Recapitulare — metrica planului]]** — tot formularul §11–§13 pe o pagină
+> - **[[Recapitulare — metrica planului]]** — tot formularul §11–§15 pe o pagină
 > - **[[Notații și simboluri]]** — ce înseamnă fiecare simbol
 > - **[[#Firul logic al cursului]]** — de ce vine fiecare noțiune după cealaltă
 
@@ -121,6 +121,21 @@ Manualul, p. 35–39. Din el se folosesc în §10 definiția raportului pe dreap
 | 3 | [[Proprietățile produsului scalar. Expresia în coordonate]] | teoremele 13.3 și 13.5, consecințele 13.4, 13.6, 13.7 |
 | 4 | [[Ce nu se transferă de la numere. Aplicații]] | cele trei capcane, exemplul 13.8 |
 
+### §14 — Unghiul dintre doi vectori pe planul orientat. Aria triunghiului
+
+| # | Lecția | Conținut |
+|---|---|---|
+| 1 | [[Unghiul orientat dintre doi vectori]] | definiția, $(-\pi;\ \pi]$, relațiile (1)–(2) |
+| 2 | [[Coordonatele vectorului prin unghiul orientat]] | teorema 14.1, consecința 14.2, exemplul 14.3: $\sin$ și $\cos$ în coordonate |
+| 3 | [[Aria triunghiului în coordonate]] | aria orientată (8), aria (9), exemplele 14.4–14.5 |
+
+### §15 — Formulele de transformare ale coordonatelor
+
+| # | Lecția | Conținut |
+|---|---|---|
+| 1 | [[Transformarea sistemului afin de coordonate]] | formulele (1)–(7), matricea de trecere, translația |
+| 2 | [[Rotația sistemului rectangular cartezian]] | cazurile cu aceeași orientare și cu orientări opuse, formulele (8)–(12) |
+
 ## Concepte
 
 Fișe scurte de referință, în folderul `Concepte/`:
@@ -132,12 +147,13 @@ Fișe scurte de referință, în folderul `Concepte/`:
 - **Transformări:** [[Omotetie]]
 - **Coordonate:** [[Bază]] · [[Reper afin]] · [[Sistem afin de coordonate]] · [[Orientarea planului]] · [[Proiecția unui vector]] · [[Rază vectoare]] · [[Raportul de împărțire a segmentului]]
 - **Metrică (§11–§13):** [[Sistem rectangular cartezian]] · [[Bază ortonormată]] · [[Distanța dintre două puncte (formulă)]] · [[Coordonate polare]] · [[Unghiul dintre doi vectori]] · [[Vectori perpendiculari]] · [[Produs scalar]] · [[Pătrat scalar]]
+- **Orientare și transformări (§14–§15):** [[Unghi orientat]] · [[Arie orientată]] · [[Matrice de trecere]]
 
 ## Referință
 
 - [[Recapitulare — vectori]] — formulele, teoremele și capcanele §3–§7
 - [[Recapitulare — baze și coordonate]] — formulele §9–§10 și erorile găsite în manual
-- [[Recapitulare — metrica planului]] — formulele §11–§13: distanțe, coordonate polare, produs scalar
+- [[Recapitulare — metrica planului]] — formulele §11–§15: distanțe, coordonate polare, produs scalar, unghi orientat, arie, transformări
 - [[Probleme rezolvate — vectori]] — 7 aplicații clasice, rezolvate pas cu pas
 - [[Notații și simboluri]] — toate simbolurile folosite în curs
 - [[Surse originale]] — fotografiile caietului, PDF-ul lectorului, manualul, notițele brute
@@ -161,6 +177,9 @@ graph TD
   S10 --> S11["§11 · RECTANGULAR CARTEZIAN<br/>apar distanțele"]
   S11 --> S12["§12 · SISTEM POLAR<br/>aceleași puncte, alt limbaj"]
   S11 --> S13["§13 · PRODUSUL SCALAR<br/>apar unghiurile"]
+  S13 --> S14["§14 · UNGHI ORIENTAT<br/>unghiul primește semn; aria"]
+  S10 --> S15["§15 · TRANSFORMĂRI<br/>schimbarea sistemului"]
+  S14 --> S15
 ```
 
 Citit în cuvinte:
@@ -176,6 +195,8 @@ Citit în cuvinte:
 9. **§11 Sistemul rectangular cartezian** — cerând axe perpendiculare și unități egale cu $1$, coordonatele încep să **măsoare**: apar modulul $\sqrt{x^2+y^2}$ și distanța dintre două puncte.
 10. **§12 Sistemul polar** — același plan descris prin *distanță + direcție* în loc de *două deplasări*. Nimic logic nou; un limbaj mai potrivit pentru figurile radiale.
 11. **§13 Produsul scalar** — prima operație care dă **un număr**. Cu ea, perpendicularitatea devine ecuația $a_1b_1 + a_2b_2 = 0$, iar unghiurile se calculează în loc să fie măsurate.
+12. **§14 Unghiul orientat** — unghiul primește **semn**: știm nu doar cât de departe sunt două direcții, ci și în ce parte. Sinusul lui se calculează cu determinantul din §10, iar același determinant dă **aria triunghiului**.
+13. **§15 Transformarea coordonatelor** — același punct, alt sistem: formule liniare, cu matricea de trecere. Între sisteme rectangulare carteziene ea depinde de un singur unghi — **rotația**.
 
 > [!tip] Ideea centrală a cursului
 > Fiecare noțiune **geometrică** primește un echivalent **algebric**:

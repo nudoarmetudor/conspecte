@@ -12,6 +12,6 @@ tags: [geometrie-analitică, concept, orientare]
 - **Poligon orientat**: orientarea e dată de ordinea enumerării vârfurilor ($ABC$ pozitiv ⇒ $ACB$ negativ).
 - **Unghiul orientat** $\widehat{(\vec{a}, \vec{b})}$: unghiul cu care se rotește $\vec{a}$ contrar acelor până la direcția lui $\vec{b}$; $\widehat{(\vec{b}, \vec{a})} = 2\pi - \widehat{(\vec{a}, \vec{b})}$ pentru vectori necoliniari.
 
-> [!warning] În multe alte manuale, sensul contrar acelor se numește orientare **dreaptă**. Rețineți sensul rotației, nu cuvântul.
+> [!warning] În multe alte manuale — și chiar în **§14–§15 ale acestui manual** — sensul contrar acelor se numește orientare **dreaptă**. Rețineți sensul rotației, nu cuvântul. Unghiul orientat din §14 ia valori în $(-\pi;\ \pi]$: vezi [[Unghi orientat]].
 
 **Vezi:** [[Orientarea planului, a poligoanelor și a unghiurilor]]

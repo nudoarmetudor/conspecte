@@ -81,6 +81,9 @@ Triunghiul $ABC$ este orientat pozitiv, iar triunghiul $MNP$ — negativ.
 
 ## 4. Unghiul orientat dintre doi vectori
 
+> [!warning] Manualul revine asupra acestor noțiuni în §14 — cu alte nume
+> În §14–§15 manualul numește **dreaptă** orientarea pe care aici o numește **stângă** (rotația contrar acelor), iar unghiul orientat primește valori în $(-\pi;\ \pi]$ în loc de $[0;\ 2\pi)$. Sensul pozitiv rămâne același. Detalii în [[Unghiul orientat dintre doi vectori]].
+
 Pe planul orientat devin orientate și unghiurile.
 
 > [!abstract] Definiție

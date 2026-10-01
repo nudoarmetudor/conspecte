@@ -182,5 +182,6 @@ $$
 ## Legături
 
 - Anterior: [[Proprietățile produsului scalar. Expresia în coordonate]]
+- Continuare: [[Unghiul orientat dintre doi vectori]]
 - Se sprijină pe: [[Produsul vectorului la un număr]], [[Coliniaritate, coplanaritate și dependență liniară]], [[Distanța dintre două puncte]]
 - Concepte: [[Produs scalar]], [[Vectori perpendiculari]]

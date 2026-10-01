@@ -10,6 +10,19 @@
   -webkit-overflow-scrolling: touch;
 }
 
+// Numărul formulei, `\tag{8}`, e poziționat de KaTeX absolut, la marginea dreaptă a blocului.
+// Când formula e mai lată decât ecranul și se derulează, „marginea dreaptă" rămâne cea a
+// ecranului, iar numărul cade peste formulă. Lățim blocul cât conținutul (dar cel puțin cât
+// coloana, ca centrarea pe ecran lat să rămână neschimbată) și rezervăm loc numărului în dreapta.
+.katex-display > .katex > .katex-html {
+  width: max-content;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.katex-display > .katex > .katex-html:has(> .tag) {
+  padding-right: 3em;
+}
+
 // Formulele inline pot fi rupte după operatori/relații, ca textul obișnuit.
 .katex {
   white-space: normal;
