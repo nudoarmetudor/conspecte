@@ -2,9 +2,9 @@
 title: Geometrie analitică în plan
 ---
 
-Notițe de curs **sistematizate, explicate pas cu pas și ilustrate**: vectori, operații cu vectori, dependență liniară, baze, repere și coordonate, metrica planului, coordonate polare, produsul scalar, unghiul orientat, aria triunghiului și transformarea coordonatelor.
+Notițe de curs **sistematizate, explicate pas cu pas și ilustrate**: vectori, operații cu vectori, dependență liniară, baze, repere și coordonate, metrica planului, coordonate polare, produsul scalar, unghiul orientat, aria triunghiului, transformarea coordonatelor, spațiul V₃ și ecuațiile dreptei.
 
-Acoperă **§1–§7 și §9–§15** din manual. → [toate cursurile](../)
+Acoperă **§1–§7, §9–§16 și §20–§21** din manual. → [toate cursurile](../)
 
 > [!warning] Material neoficial
 > Aceste notițe urmează manualul lui L. Calmuțchi, D. Afanas și M. Cioban, *Geometrie analitică în plan* (UST, Chișinău, 2014). Nu sunt aprobate de autorii manualului, de titularul cursului sau de universitate și **nu înlocuiesc manualul**. Detalii în [[Despre, surse și licență]].
@@ -15,6 +15,7 @@ Acoperă **§1–§7 și §9–§15** din manual. → [toate cursurile](../)
 - [[Recapitulare — vectori]] — formularul §3–§7 pe o pagină
 - [[Recapitulare — baze și coordonate]] — formularul §9–§10 pe o pagină
 - [[Recapitulare — metrica planului]] — formularul §11–§15 pe o pagină
+- [[Recapitulare — dreapta în plan]] — formularul §20–§21 pe o pagină
 - [[Probleme rezolvate — vectori]]
 - [[Notații și simboluri]]
 - [[Surse originale]] — ce paragraf vine de unde și erorile găsite în manual

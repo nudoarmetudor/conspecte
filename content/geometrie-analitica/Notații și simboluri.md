@@ -150,6 +150,32 @@ Incluziunile: $[AB] \subset [AB) \subset (AB)$.
 | $\alpha = \widehat{(\vec i, \vec i{}')}$ | unghiul de rotație al axelor |
 | $\varepsilon = \pm 1$ | $+1$: aceeași orientare, $-1$: orientări opuse; $= \det C$ |
 
+## Spațiul $V_3$ (§16)
+
+| Simbol | Se citește |
+|---|---|
+| $V_3$ | spațiul vectorilor din spațiu (dimensiunea 3) |
+| $\{\vec e_1, \vec e_2, \vec e_3\}$ | bază — ternă **ordonată** de vectori necoplanari |
+| $\vec a = \{a_1;\ a_2;\ a_3\}$ sau $\vec a(a_1, a_2, a_3)$ | coordonatele vectorului în spațiu |
+| $R = \{O, \vec e_1, \vec e_2, \vec e_3\}$ | reper afin în spațiu |
+| $\vec i, \vec j, \vec k$ | baza ortonormată a spațiului |
+
+## Dreapta (§20–§21)
+
+| Simbol | Se citește |
+|---|---|
+| $\vec a\{a_1;\ a_2\}$ | vector director al dreptei |
+| $M_0(x_0;\ y_0)$ | un punct cunoscut al dreptei |
+| $k$ | coeficientul unghiular, $k = a_2/a_1$ |
+| $a$, $b$ (în $\tfrac{x}{a} + \tfrac{y}{b} = 1$) | segmentele tăiate pe axe |
+| $b$ (în $y = kx + b$) | ordonata punctului de intersecție cu $(Oy)$ |
+| $t$ | parametrul din ecuațiile parametrice |
+| $Ax + By + C = 0$ | ecuația generală, $A^2 + B^2 > 0$ |
+| $\vec n\{A;\ B\}$ | vectorul normal (sistem rectangular cartezian) |
+
+> [!warning] Litera $b$ are două sensuri în §20
+> În ecuația în segmente, $b$ e intersecția cu axa $(Oy)$; în $y = kx + b$, tot intersecția cu $(Oy)$ — aceeași valoare. Dar în teoreme $\vec b$ desemnează și un al doilea vector director. Verificați dacă e număr sau vector.
+
 ## Sintaxă LaTeX folosită în vault
 
 | Se scrie | Se afișează |

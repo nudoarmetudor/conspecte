@@ -11,7 +11,7 @@ Totul este gratuit și rămâne gratuit.
 | Curs | Ce cuprinde | Stare |
 |---|---|---|
 | **[[fundamentele-stiintelor-educatiei/index\|Fundamentele științelor educației]]** | Statutul științelor educației, formele și finalitățile educației, paradigmele pedagogiei, dimensiunile educației, noile educații, sistemul de învățământ, agenții educației, proiectarea activității educative. Plus analiză comparată pe teorii și sisteme naționale. | **complet** — modulele 1–10 |
-| **[[geometrie-analitica/index\|Geometrie analitică în plan]]** | Vectori și operații cu ei, dependență liniară, spații vectoriale, baze și repere, coordonate afine, metrica planului, coordonate polare, produsul scalar, unghiul orientat, aria triunghiului, transformarea coordonatelor. | în lucru — §1–§7, §9–§15 |
+| **[[geometrie-analitica/index\|Geometrie analitică în plan]]** | Vectori și operații cu ei, dependență liniară, spații vectoriale, baze și repere, coordonate afine, metrica planului, coordonate polare, produsul scalar, unghiul orientat, aria triunghiului, transformarea coordonatelor, spațiul V₃, ecuațiile dreptei. | în lucru — §1–§7, §9–§16, §20–§21 |
 | **[[psihologie-generala/index\|Psihologie generală]]** | Obiectul și sarcinile psihologiei, sistemul psihic uman, școlile și orientările psihologice, metodele de cercetare. Cu fișe de concepte, fișe de autori, glosar și flashcards. | în lucru — cursul 1 |
 | **[[logica-matematica/index\|Logică matematică]]** | Principiile raționamentului corect, logica propozițională, conectori logici, formule. | notițe brute |
 | **[[elemente-de-matematica-superioara/index\|Elemente de matematică superioară]]** | Aritmetică, algebră și funcții elementare; baze de numerație. | notițe brute |

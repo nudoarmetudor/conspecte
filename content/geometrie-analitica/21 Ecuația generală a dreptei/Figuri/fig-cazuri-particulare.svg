@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="520" height="360" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#909090"/></marker>
+  </defs>
+  <line x1="39" y1="95" x2="137" y2="95" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <line x1="85" y1="141" x2="85" y2="43" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <text x="85" y="31" font-size="12" fill="#8B7BD8" text-anchor="middle" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">C = 0</text>
+  <text x="85" y="163" font-size="12" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">Ax + By = 0</text>
+  <line x1="43.6" y1="67.4" x2="126.4" y2="122.6" stroke="#8B7BD8" stroke-width="2.6"/>
+  <line x1="214" y1="95" x2="312" y2="95" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <line x1="260" y1="141" x2="260" y2="43" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <text x="260" y="31" font-size="12" fill="#4C86D6" text-anchor="middle" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">A = 0, C ≠ 0</text>
+  <text x="260" y="163" font-size="12" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">By + C = 0</text>
+  <line x1="216.3" y1="72" x2="303.7" y2="72" stroke="#4C86D6" stroke-width="2.6"/>
+  <line x1="389" y1="95" x2="487" y2="95" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <line x1="435" y1="141" x2="435" y2="43" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <text x="435" y="31" font-size="12" fill="#4C86D6" text-anchor="middle" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">A = C = 0</text>
+  <text x="435" y="163" font-size="12" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">y = 0  (axa Ox)</text>
+  <line x1="391.3" y1="95" x2="478.7" y2="95" stroke="#4C86D6" stroke-width="2.6"/>
+  <line x1="39" y1="275" x2="137" y2="275" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <line x1="85" y1="321" x2="85" y2="223" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <text x="85" y="211" font-size="12" fill="#909090" text-anchor="middle" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">general</text>
+  <text x="85" y="343" font-size="12" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">Ax + By + C = 0</text>
+  <line x1="43.6" y1="231.3" x2="112.6" y2="316.4" stroke="#909090" stroke-width="2.6"/>
+  <line x1="214" y1="275" x2="312" y2="275" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <line x1="260" y1="321" x2="260" y2="223" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <text x="260" y="211" font-size="12" fill="#E08A3C" text-anchor="middle" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">B = 0, C ≠ 0</text>
+  <text x="260" y="343" font-size="12" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">Ax + C = 0</text>
+  <line x1="285.3" y1="318.7" x2="285.3" y2="231.3" stroke="#E08A3C" stroke-width="2.6"/>
+  <line x1="389" y1="275" x2="487" y2="275" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <line x1="435" y1="321" x2="435" y2="223" stroke="#909090" stroke-width="1" marker-end="url(#ag)"/>
+  <text x="435" y="211" font-size="12" fill="#E08A3C" text-anchor="middle" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">B = C = 0</text>
+  <text x="435" y="343" font-size="12" fill="#909090" text-anchor="middle" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">x = 0  (axa Oy)</text>
+  <line x1="435" y1="318.7" x2="435" y2="231.3" stroke="#E08A3C" stroke-width="2.6"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 320" width="470" height="320" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4C86D6"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#E08A3C"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8B7BD8"/></marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4CA88A"/></marker>
+  </defs>
+  <line x1="102.6" y1="248" x2="252.6" y2="248" stroke="#909090" stroke-width="0.9"/>
+  <line x1="102.6" y1="248" x2="102.6" y2="138" stroke="#909090" stroke-width="0.9"/>
+  <line x1="315" y1="200" x2="252.6" y2="248" stroke="#909090" stroke-width="0.9"/>
+  <line x1="315" y1="200" x2="315" y2="90" stroke="#909090" stroke-width="0.9"/>
+  <line x1="165" y1="90" x2="102.6" y2="138" stroke="#909090" stroke-width="0.9"/>
+  <line x1="165" y1="90" x2="315" y2="90" stroke="#909090" stroke-width="0.9"/>
+  <line x1="252.6" y1="248" x2="252.6" y2="138" stroke="#909090" stroke-width="0.9"/>
+  <line x1="102.6" y1="138" x2="252.6" y2="138" stroke="#909090" stroke-width="0.9"/>
+  <line x1="315" y1="90" x2="252.6" y2="138" stroke="#909090" stroke-width="0.9"/>
+  <polygon points="165,200 102.6,248 252.6,248" fill="#4CA88A" stroke="#4CA88A" stroke-width="0.8" opacity="0.18"/>
+  <polygon points="165,200 252.6,248 252.6,138" fill="#8B7BD8" stroke="#8B7BD8" stroke-width="0.8" opacity="0.14"/>
+  <line x1="165" y1="200" x2="102.6" y2="248" stroke="#4C86D6" stroke-width="2.4" marker-end="url(#ab)"/>
+  <line x1="165" y1="200" x2="315" y2="200" stroke="#E08A3C" stroke-width="2.4" marker-end="url(#ao)"/>
+  <line x1="165" y1="200" x2="165" y2="90" stroke="#4CA88A" stroke-width="2.4" marker-end="url(#at)"/>
+  <line x1="165" y1="200" x2="252.6" y2="248" stroke="#909090" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <line x1="252.6" y1="248" x2="252.6" y2="138" stroke="#909090" stroke-width="1.6"/>
+  <line x1="165" y1="200" x2="252.6" y2="138" stroke="#8B7BD8" stroke-width="3" marker-end="url(#av)"/>
+  <path d="M 109.7 242.5 L 118.7 242.5 L 111.6 248.0" fill="none" stroke="#4CA88A" stroke-width="1.2"/>
+  <path d="M 244.7 243.7 L 244.7 234.7 L 252.6 239.0" fill="none" stroke="#8B7BD8" stroke-width="1.2"/>
+  <circle cx="165" cy="200" r="4.2" fill="#909090"/>
+  <circle cx="252.6" cy="138" r="4.5" fill="#8B7BD8"/>
+  <circle cx="252.6" cy="248" r="4" fill="#909090"/>
+  <text x="153" y="196" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">O</text>
+  <text x="88.6" y="258" font-size="16" fill="#4C86D6" text-anchor="middle" font-weight="normal" font-style="italic">A₁</text>
+  <text x="329" y="214" font-size="16" fill="#E08A3C" text-anchor="middle" font-weight="normal" font-style="italic">A₂</text>
+  <text x="149" y="94" font-size="16" fill="#4CA88A" text-anchor="middle" font-weight="normal" font-style="italic">A₃</text>
+  <text x="266.6" y="262" font-size="16" fill="#909090" text-anchor="middle" font-weight="normal" font-style="italic">A′</text>
+  <text x="264.6" y="132" font-size="16" fill="#8B7BD8" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+  <text x="338" y="40" font-size="13" fill="#4CA88A" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">1) în OA₁A′:</text>
+  <text x="338" y="58" font-size="13" fill="#4CA88A" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">OA′² = a₁² + a₂²</text>
+  <text x="338" y="84" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="bold" font-family="Segoe UI, system-ui, Arial, sans-serif">2) în OA′A:</text>
+  <text x="338" y="102" font-size="13" fill="#8B7BD8" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">OA² = OA′² + a₃²</text>
+  <text x="20" y="308" font-size="13" fill="#909090" text-anchor="start" font-weight="normal" font-family="Segoe UI, system-ui, Arial, sans-serif">|a|² = a₁² + a₂² + a₃²  — pătratul diagonalei paralelipipedului</text>
+</svg>

@@ -19,8 +19,8 @@
       "nume": "Geometrie analitică în plan",
       "numeScurt": "Geometrie analitică",
       "vault": "../Geometrie_analitică",
-      "descriere": "Vectori și operații cu ei, dependență liniară, spații vectoriale, baze și repere, coordonate afine, metrica planului, coordonate polare, produsul scalar, unghiul orientat, aria triunghiului și transformarea coordonatelor.",
-      "acoperire": "§1–§7, §9–§15",
+      "descriere": "Vectori și operații cu ei, dependență liniară, spații vectoriale, baze și repere, coordonate afine, metrica planului, coordonate polare, produsul scalar, unghiul orientat, aria triunghiului, transformarea coordonatelor, spațiul V3 și ecuațiile dreptei.",
+      "acoperire": "§1–§7, §9–§16, §20–§21",
       "stare": "în lucru",
       "sursaScurta": "L. Calmuțchi, D. Afanas, M. Cioban, «Geometrie analitică în plan», UST, Chișinău, 2014"
     },

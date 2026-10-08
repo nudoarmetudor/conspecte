@@ -7,7 +7,7 @@ Site cu notițe de facultate, **sistematizate, explicate pas cu pas și ilustrat
 | Curs | Stare | Sursa principală |
 |---|---|---|
 | [Fundamentele științelor educației](https://nudoarmetudor.github.io/conspecte/fundamentele-stiintelor-educatiei/) | complet | M. Cojocaru-Borozan, L. Sadovei, L. Papuc, N. Ovcerenco, *Fundamentele științelor educației*, UPS „Ion Creangă", Chișinău, 2014 (ISBN 978-9975-46-207-5) |
-| [Geometrie analitică în plan](https://nudoarmetudor.github.io/conspecte/geometrie-analitica/) | în lucru — §1–§7, §9–§15 | L. Calmuțchi, D. Afanas, M. Cioban, *Geometrie analitică în plan*, Universitatea de Stat din Tiraspol, Chișinău, 2014 (ISBN 978-9975-76-119-2) |
+| [Geometrie analitică în plan](https://nudoarmetudor.github.io/conspecte/geometrie-analitica/) | în lucru — §1–§7, §9–§16, §20–§21 | L. Calmuțchi, D. Afanas, M. Cioban, *Geometrie analitică în plan*, Universitatea de Stat din Tiraspol, Chișinău, 2014 (ISBN 978-9975-76-119-2) |
 | [Psihologie generală](https://nudoarmetudor.github.io/conspecte/psihologie-generala/) | în lucru | notițele de la curs și bibliografia indicată |
 | [Logică matematică](https://nudoarmetudor.github.io/conspecte/logica-matematica/) | notițe brute | notițele de la curs |
 | [Elemente de matematică superioară](https://nudoarmetudor.github.io/conspecte/elemente-de-matematica-superioara/) | notițe brute | notițele de la curs |

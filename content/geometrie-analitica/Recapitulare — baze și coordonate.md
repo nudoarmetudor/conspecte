@@ -9,7 +9,7 @@ tags:
   - recapitulare
 ---
 
-Formularul §9–§10 pe o singură pagină. Pentru demonstrații și figuri, urmați legăturile.
+Formularul §9–§10 și §16 pe o singură pagină. Pentru demonstrații și figuri, urmați legăturile.
 
 ## 1. Spațiul $V_2$ (§9)
 
@@ -64,6 +64,19 @@ Cu $\vec{a} = \{x_1; y_1\}$, $\vec{b} = \{x_2; y_2\}$:
 | (8) | $x_0 = \dfrac{x_1 + \lambda x_2}{1 + \lambda}$, $\ y_0 = \dfrac{y_1 + \lambda y_2}{1 + \lambda}$ |
 | (9) | $x_0 = \dfrac{x_1 + x_2}{2}$, $\ y_0 = \dfrac{y_1 + y_2}{2}$ (mijlocul, $\lambda = 1$) |
 
+## 4½. Spațiul $V_3$ (§16)
+
+| Rezultat | Enunț |
+|---|---|
+| T. 16.1 | $\vec a, \vec b, \vec c$ necoplanari ⇒ $\vec p = \alpha\vec a + \beta\vec b + \gamma\vec c$, unic |
+| C. 16.2 | orice patru vectori sunt liniar dependenți ⇒ $\dim V_3 = 3$ |
+| D. 16.3–16.4 | bază = ternă ordonată de vectori necoplanari; $\vec a = \{a_1;\ a_2;\ a_3\}$ |
+| 1⁰–3⁰ | sumă, diferență, $\lambda\vec a$ — coordonată cu coordonată |
+| T. 16.6 | coliniari ⇔ $b_i = \lambda a_i$, $i = 1, 2, 3$ |
+| T. 16.8 | bază ortonormată $\vec i, \vec j, \vec k$: $\lvert\vec a\rvert = \sqrt{a_1^2 + a_2^2 + a_3^2}$ |
+
+**Exemplu:** în paralelipipedul din fig. 60, cu $P$ mijlocul lui $DD_1$: $\vec{PB_1} = \{1;\ -1;\ \tfrac12\}$.
+
 ## 5. Harta logică §9–§10
 
 ```mermaid
@@ -102,10 +115,15 @@ graph TD
 | 48 | $x_0 - x_1 = \lambda(x_2 - x_1)$ | $x_0 - x_1 = \lambda(x_2 - x_0)$ (analog pentru $y$) |
 | 48 | „după (2) avem" | după proprietatea **2⁰** |
 | 49 | „Cu ajutorul (4) se determină…" | formula **(8)** |
+| 70 | „$\vec p = \alpha\vec a + \beta\vec b ++ \gamma\vec c$” (de două ori) | „$+$” dublat |
+| 71 | „mujlocul muchiei $DD_1$” | „mijlocul” |
+| 74 | „$\vec{OA} = = \vec a$”, „$\vec{OA_1} + + \vec{OA_2}$” | semne dublate |
+| 75 | „$OA_1 = a_1$, $OA_2 = a_2$, $OA_3 = a_3$” | lungimi: $OA_i = \lvert a_i\rvert$; concluzia nu e afectată (apar pătratele) |
 
 ## Legături
 
 - Index: [[Geometrie analitică în plan]]
 - Recapitularea anterioară: [[Recapitulare — vectori]]
-- Continuare: [[Recapitulare — metrica planului]] — formularul §11–§13
+- Continuare: [[Recapitulare — metrica planului]] — formularul §11–§15
+- Lecțiile §16: [[Baza spațiului V3. Teorema 16.1]] · [[Coordonatele vectorului în spațiul V3]] · [[Baza ortonormată în V3. Lungimea vectorului]]
 - Notații: [[Notații și simboluri]]

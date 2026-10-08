@@ -225,5 +225,6 @@ unde $\varepsilon = 1$, dacă sistemele de coordonate $O\vec i\vec j$ și $O'\ve
 ## Legături
 
 - Anterior: [[Transformarea sistemului afin de coordonate]]
+- Continuare: [[Baza spațiului V3. Teorema 16.1]]
 - Se sprijină pe: [[Coordonatele vectorului prin unghiul orientat]], [[Unghiul orientat dintre doi vectori]], [[Sistemul rectangular cartezian. Coordonatele și modulul unui vector]]
 - Concepte: [[Matrice de trecere]], [[Unghi orientat]], [[Sistem rectangular cartezian]], [[Orientarea planului]]

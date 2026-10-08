@@ -26,6 +26,10 @@ Materialele pe baza cărora au fost redactate notele acestui curs. Licența, dre
 | §13 Produsul scalar a doi vectori | 55–60 | [[Unghiul dintre doi vectori. Perpendicularitate]], [[Produsul scalar — definiție și interpretare]], [[Proprietățile produsului scalar. Expresia în coordonate]], [[Ce nu se transferă de la numere. Aplicații]] |
 | §14 Unghiul dintre doi vectori pe planul orientat. Aria triunghiului | 60–65 | [[Unghiul orientat dintre doi vectori]], [[Coordonatele vectorului prin unghiul orientat]], [[Aria triunghiului în coordonate]] |
 | §15 Formulele de transformare ale coordonatelor | 65–69 | [[Transformarea sistemului afin de coordonate]], [[Rotația sistemului rectangular cartezian]] |
+| §16 Spațiul $V_3$ și baza lui | 69–75 | [[Baza spațiului V3. Teorema 16.1]], [[Coordonatele vectorului în spațiul V3]], [[Baza ortonormată în V3. Lungimea vectorului]] |
+| §17–§19 Probleme | 75–92 | *neconspectate* |
+| §20 Diferite tipuri de ecuații ale dreptei | 93–97 | [[Ecuația canonică și ecuația dreptei prin două puncte]], [[Ecuația în segmente, cu coeficient unghiular și parametrică]] |
+| §21 Ecuația generală a dreptei | 97–99 | [[Ecuația generală. Teoremele 21.1–21.3]], [[Poziția dreptei față de axe]] |
 
 Exemplele 9.4, 9.5, 10.9 și 10.10 din manual **nu** au fost incluse.
 
@@ -62,3 +66,10 @@ Fiecare eroare este explicată în nota corespunzătoare. Cele marcate **calcul*
 | p. 66 | „vectorii $\vec e_1$ și $\vec e_2$ sunt necoliniari, atunci $\det C \ne 0$” | $\vec e_1{}'$ și $\vec e_2{}'$ — coloanele lui $C$ sunt vectorii **noi** |
 | p. 66, translația | matricea de trecere $\begin{pmatrix} 1 & 0 \\ 1 & 0 \end{pmatrix}$ | matricea unitate; cea tipărită e singulară |
 | p. 67 | „B. Rotația axelor” pentru formulele (7) ale cazului afin | (7) e o schimbare de bază oarecare; rotație e doar cazul rectangular cu aceeași orientare |
+| p. 70, 71, 74 | „$++$”, „$= =$”, „mujlocul” | tipar |
+| p. 75, teorema 16.8 | „$OA_1 = a_1$, $OA_2 = a_2$, $OA_3 = a_3$” | lungimile sunt $\lvert a_i\rvert$; concluzia nu e afectată |
+| p. 73, teorema 16.6 | proporționalitatea scrisă ca rapoarte | cu zerouri, se citește „$b_i = \lambda a_i$ pentru toți $i$” |
+| p. 94 | forma (1′) fără condiția $a_1, a_2 \ne 0$ | condiția e necesară; forma (1″) nu o cere |
+| p. 96 | „$k$ permite de aflat unghiul orientat $\widehat{(\vec i, \vec a)}$” | doar până la $180°$ — $\vec a$ și $-\vec a$ dau același $k$ |
+| p. 97, teorema 21.2 | existența unei soluții $(x_0; y_0)$ presupusă | se arată din $A^2 + B^2 > 0$ |
+| p. 96–98 | „în aces caz”, „$A^2 + + B^2$”, „vectoril”, „parallel” | tipar |

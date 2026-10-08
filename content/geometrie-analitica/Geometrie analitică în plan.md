@@ -8,12 +8,13 @@ tags:
   - index
 ---
 
-Notițe de curs, sistematizate pe **paragrafele cursului (§1–§7, §9–§15)**. Fiecare paragraf are folderul lui, cu lecțiile numerotate în ordinea predării și figurile alături.
+Notițe de curs, sistematizate pe **paragrafele cursului (§1–§7, §9–§16, §20–§21)**. Fiecare paragraf are folderul lui, cu lecțiile numerotate în ordinea predării și figurile alături.
 
 > [!tip] Intrări rapide
 > - **[[Recapitulare — vectori]]** — tot formularul §3–§7 pe o pagină
 > - **[[Recapitulare — baze și coordonate]]** — tot formularul §9–§10 pe o pagină
 > - **[[Recapitulare — metrica planului]]** — tot formularul §11–§15 pe o pagină
+> - **[[Recapitulare — dreapta în plan]]** — tot formularul §20–§21 pe o pagină
 > - **[[Notații și simboluri]]** — ce înseamnă fiecare simbol
 > - **[[#Firul logic al cursului]]** — de ce vine fiecare noțiune după cealaltă
 
@@ -136,6 +137,36 @@ Manualul, p. 35–39. Din el se folosesc în §10 definiția raportului pe dreap
 | 1 | [[Transformarea sistemului afin de coordonate]] | formulele (1)–(7), matricea de trecere, translația |
 | 2 | [[Rotația sistemului rectangular cartezian]] | cazurile cu aceeași orientare și cu orientări opuse, formulele (8)–(12) |
 
+### §16 — Spațiul V₃ și baza lui
+
+| # | Lecția | Conținut |
+|---|---|---|
+| 1 | [[Baza spațiului V3. Teorema 16.1]] | teorema 16.1, consecința 16.2, dimensiunea 3, definiția 16.3 |
+| 2 | [[Coordonatele vectorului în spațiul V3]] | definiția 16.4, exemplul $\vec{PB_1}$, exemplul 16.5, teorema 16.6 |
+| 3 | [[Baza ortonormată în V3. Lungimea vectorului]] | definiția 16.7, teorema 16.8 |
+
+### §17–§19 — Probleme *(neconspectate)*
+
+Manualul, p. 75–92: utilizarea vectorilor și a metodei coordonatelor la rezolvarea problemelor, probleme propuse pentru lucrul individual.
+
+---
+
+**Capitolul II. Dreapta pe plan**
+
+### §20 — Diferite tipuri de ecuații ale dreptei
+
+| # | Lecția | Conținut |
+|---|---|---|
+| 1 | [[Ecuația canonică și ecuația dreptei prin două puncte]] | vectorul director, ecuațiile (1)–(2′), exemplele 20.1–20.2 |
+| 2 | [[Ecuația în segmente, cu coeficient unghiular și parametrică]] | ecuațiile (3)–(6), coeficientul unghiular $k = \operatorname{tg}\varphi$ |
+
+### §21 — Ecuația generală a dreptei
+
+| # | Lecția | Conținut |
+|---|---|---|
+| 1 | [[Ecuația generală. Teoremele 21.1–21.3]] | teoremele 21.1–21.3, vectorul normal |
+| 2 | [[Poziția dreptei față de axe]] | cazurile $A$, $B$ sau $C$ nul |
+
 ## Concepte
 
 Fișe scurte de referință, în folderul `Concepte/`:
@@ -148,12 +179,15 @@ Fișe scurte de referință, în folderul `Concepte/`:
 - **Coordonate:** [[Bază]] · [[Reper afin]] · [[Sistem afin de coordonate]] · [[Orientarea planului]] · [[Proiecția unui vector]] · [[Rază vectoare]] · [[Raportul de împărțire a segmentului]]
 - **Metrică (§11–§13):** [[Sistem rectangular cartezian]] · [[Bază ortonormată]] · [[Distanța dintre două puncte (formulă)]] · [[Coordonate polare]] · [[Unghiul dintre doi vectori]] · [[Vectori perpendiculari]] · [[Produs scalar]] · [[Pătrat scalar]]
 - **Orientare și transformări (§14–§15):** [[Unghi orientat]] · [[Arie orientată]] · [[Matrice de trecere]]
+- **Spațiul (§16):** [[Spațiul V3]]
+- **Dreapta (§20–§21):** [[Ecuațiile dreptei]] · [[Vector director]] · [[Vector normal]] · [[Coeficient unghiular]]
 
 ## Referință
 
 - [[Recapitulare — vectori]] — formulele, teoremele și capcanele §3–§7
 - [[Recapitulare — baze și coordonate]] — formulele §9–§10 și erorile găsite în manual
 - [[Recapitulare — metrica planului]] — formulele §11–§15: distanțe, coordonate polare, produs scalar, unghi orientat, arie, transformări
+- [[Recapitulare — dreapta în plan]] — formulele §20–§21: toate formele ecuației dreptei, ecuația generală
 - [[Probleme rezolvate — vectori]] — 7 aplicații clasice, rezolvate pas cu pas
 - [[Notații și simboluri]] — toate simbolurile folosite în curs
 - [[Surse originale]] — fotografiile caietului, PDF-ul lectorului, manualul, notițele brute
@@ -180,6 +214,10 @@ graph TD
   S13 --> S14["§14 · UNGHI ORIENTAT<br/>unghiul primește semn; aria"]
   S10 --> S15["§15 · TRANSFORMĂRI<br/>schimbarea sistemului"]
   S14 --> S15
+  S9 --> S16["§16 · SPAȚIUL V₃<br/>3 vectori necoplanari"]
+  S10 --> S20["§20 · ECUAȚIILE DREPTEI<br/>M₀M ∥ a"]
+  S13 --> S21["§21 · ECUAȚIA GENERALĂ<br/>Ax + By + C = 0"]
+  S20 --> S21
 ```
 
 Citit în cuvinte:
@@ -197,6 +235,8 @@ Citit în cuvinte:
 11. **§13 Produsul scalar** — prima operație care dă **un număr**. Cu ea, perpendicularitatea devine ecuația $a_1b_1 + a_2b_2 = 0$, iar unghiurile se calculează în loc să fie măsurate.
 12. **§14 Unghiul orientat** — unghiul primește **semn**: știm nu doar cât de departe sunt două direcții, ci și în ce parte. Sinusul lui se calculează cu determinantul din §10, iar același determinant dă **aria triunghiului**.
 13. **§15 Transformarea coordonatelor** — același punct, alt sistem: formule liniare, cu matricea de trecere. Între sisteme rectangulare carteziene ea depinde de un singur unghi — **rotația**.
+14. **§16 Spațiul $V_3$** — totul din §9 se repetă cu un vector în plus: trei vectori necoplanari formează o bază, al patrulea e de prisos. Figura-cheie devine paralelipipedul.
+15. **§20–§21 Dreapta** — primul obiect geometric descris complet printr-o ecuație. Un punct e pe dreaptă exact când vectorul spre el e paralel cu dreapta; în coordonate, asta dă o ecuație de **gradul întâi**, și orice ecuație de gradul întâi e o dreaptă.
 
 > [!tip] Ideea centrală a cursului
 > Fiecare noțiune **geometrică** primește un echivalent **algebric**:

@@ -191,4 +191,5 @@ Vezi și tabelul complet din [[Surse originale]].
 
 - Lecțiile: [[Sistemul rectangular cartezian. Coordonatele și modulul unui vector]] · [[Distanța dintre două puncte]] · [[Reperul polar. Coordonate polare]] · [[Trecerea între coordonate polare și carteziene]] · [[Unghiul dintre doi vectori. Perpendicularitate]] · [[Produsul scalar — definiție și interpretare]] · [[Proprietățile produsului scalar. Expresia în coordonate]] · [[Ce nu se transferă de la numere. Aplicații]] · [[Unghiul orientat dintre doi vectori]] · [[Coordonatele vectorului prin unghiul orientat]] · [[Aria triunghiului în coordonate]] · [[Transformarea sistemului afin de coordonate]] · [[Rotația sistemului rectangular cartezian]]
 - Anterior: [[Recapitulare — baze și coordonate]]
+- Continuare: [[Recapitulare — dreapta în plan]]
 - [[Notații și simboluri]] · [[Geometrie analitică în plan]]
